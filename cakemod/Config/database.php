@@ -16,7 +16,8 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
                  'port' => 3306,
 		'login' => 'root',
-		'password' => 'aco11234',
+		'password' => 'aco1234',
 		'database' => 'acoserver_cakemod',
+                 'encoding' => 'utf8'
 	);
 }
