@@ -257,3 +257,12 @@ Stack Trace:
 #3 K:\ArcherVMPeridot\php\pear\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ViewController), Object(CakeRequest))
 #4 K:\ArcherVMPeridot\htdocs\cakemod\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-09-22 00:11:18 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /cakemod/
+Stack Trace:
+#0 K:\ArcherVMPeridot\htdocs\cakemod\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
