@@ -1,0 +1,20 @@
+2014-09-21 21:42:57 Error: Fatal Error (4): syntax error, unexpected ':', expecting ')' in [K:\ArcherVMPeridot\htdocs\cakemod\Config\database.php, line 17]
+2014-09-21 21:42:57 Error: [FatalErrorException] syntax error, unexpected ':', expecting ')'
+Request URL: /cakemod/
+Stack Trace:
+#0 K:\ArcherVMPeridot\php\pear\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'K:\\ArcherVMPeri...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'K:\\ArcherVMPeri...', 17, Array)
+#2 K:\ArcherVMPeridot\php\pear\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'K:\\ArcherVMPeri...', 17, Array)
+#3 K:\ArcherVMPeridot\php\pear\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-21 21:43:12 Error: Fatal Error (4): syntax error, unexpected ':', expecting ')' in [K:\ArcherVMPeridot\htdocs\cakemod\Config\database.php, line 17]
+2014-09-21 21:43:12 Error: [FatalErrorException] syntax error, unexpected ':', expecting ')'
+Request URL: /cakemod/
+Stack Trace:
+#0 K:\ArcherVMPeridot\php\pear\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'K:\\ArcherVMPeri...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'K:\\ArcherVMPeri...', 17, Array)
+#2 K:\ArcherVMPeridot\php\pear\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'K:\\ArcherVMPeri...', 17, Array)
+#3 K:\ArcherVMPeridot\php\pear\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
