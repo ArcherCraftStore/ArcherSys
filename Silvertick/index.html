@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+ 
+<meta charset="utf-8">
+<title>SilverTick</title>
+<meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+<script src="jquery.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<script type="text/x-handlebars" data-template-name="todos">
+
+
+
+<section id="main">
+{{outlet}}
+
+<input type="checkbox" id="toggle-all">
+
+
+
+</section>
+
+<span id="todo-count">
+<strong>{{remaining}}</strong> {{inflection}} left
+</span>
+</script>
+
+
+
+
+
+
+<script type="text/x-handlebars" data-template-name="todos/index">
+<ul id="todo-list">
+{{#each itemController="todo"}}
+<li {{bind-attr class="isCompleted:completed isEditing:editing"}}>
+{{#if isEditing}}
+{{edit-todo class="edit" value=title focus-out="acceptChanges" insert-newline="acceptChanges"}}
+{{else}}
+{{input type="checkbox" checked=isCompleted class="toggle"}}
+<label {{action "editTodo" on="doubleClick"}}>{{title}}</label><button {{action "removeTodo"}} class="destroy"></button>
+{{/if}}
+</li>
+{{/each}}
+</ul>
+
+<li>
+<a href="all">All</a>
+</li>
+<li>
+{{#link-to "todos.active" activeClass="selected"}}Active{{/link-to}}
+</li>
+<li>
+<a href="completed">Completed</a>
+</li>
+<!--- ...
+</script>
+
+<footer id="info">
+<p>Double-click to edit a todo</p>
+</footer>
+ <script src="js/libs/jquery-1.10.2.js"></script>
+
+  <script src="js/libs/handlebars-1.1.2.js"></script>
+ 
+ <script src="js/libs/ember-1.7.0.js"></script>
+  
+<script src="js/libs/ember-data.js"></script>
+<script src="js/application.js"></script>
+ 
+<script src="js/router.js"></script>
+ <script src="js/models/todo.js"></script>
+<script src="js/controllers/silvertick_controller.js"></script>
+<script src="js/controllers/todo_controller.js"></script>
+<script src="js/views/edit_todo_view.js"></script>
+ <script src="tests/runner.js"></script>
+
+</body>
+
+</html>
