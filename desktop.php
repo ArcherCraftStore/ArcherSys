@@ -15,6 +15,13 @@
 <link rel="stylesheet" type="text/css" href="assets/css/min/bootmetro-ui-light.min.css"/>
 <link rel="stylesheet" type="text/css" href="assets/css/bootmetro-responsive.css"/>
 <link rel="stylesheet" type="text/css" href="assets/css/min/bootmetro-responsive.min.css"/>
+<script>
+TogetherJSConfig_toolName = "BIRD";
+</script>
+<script src="js/libs/togetherjs.js"></script>
+
+
+
 </head>
 <body>
 <div class="container-fluid">
@@ -22,7 +29,8 @@
      <div class="navbar-inner">
      <a class="brand" href="#">ArcherSys Desktop</a>
       <a href="wordpress">Social</a>
-
+       
+  </div>
 </div>
 </div>
 
@@ -33,6 +41,7 @@
 <a href="#">
    <div class="tile wide text bg-color-blue">
       <div class="win-commandlayout win-ui-dark">
+         <button id="birdc" onclick="TogetherJS(this); return false;">Connect</button>
        </div>
    </div>
 </a>

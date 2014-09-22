@@ -6,4 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AlgoliaSearch\\AlgoliaException' => $vendorDir . '/algolia/algoliasearch-client-php/algoliasearch.php',
+    'AlgoliaSearch\\Client' => $vendorDir . '/algolia/algoliasearch-client-php/algoliasearch.php',
+    'AlgoliaSearch\\Index' => $vendorDir . '/algolia/algoliasearch-client-php/algoliasearch.php',
 );

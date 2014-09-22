@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <?php
+
 require_once("config.php");
  // Connects to your Database
 
@@ -43,9 +44,10 @@ if(isset($_COOKIE['ID_my_site']))
  	else
 
  			{
- 			  
 	echo "<div class=\"header\">";
 		echo "<h1>Start</h1>";
+                
+
 		echo " <div class=\"profile\">";
 				echo"	<p class=\"name\">".$info['username']."</p>";
 					echo "<p class=\"status\">Hello :)</p>";
@@ -111,7 +113,7 @@ p > a {
 
 ul, li {
   list-style: none;
-  padding: 0;
+  padding: 75px;;
   margin: 0; }
 
 body {
@@ -120,11 +122,7 @@ body {
   color: white;
   font-size: 14px; }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-  clear: both;
-  position: relative; }
+
 
 .module {
   position: relative;
@@ -150,11 +148,19 @@ body {
         text-decoration: none;
     }
 
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
+  position: relative; }
+
 .header {
   display:block;
   width: 100%;
   position: relative;
   color:blue;
+ padding-bottom:75px;
 }
 
 h1 {
@@ -844,6 +850,7 @@ img.prof{
 
 
 $(function(){
+    
   var sliderUL = $('div.slider').children('ul'),
   	screens = sliderUL.find('li'),
 		screenWidth = screens.width(),
@@ -884,36 +891,32 @@ $(function(){
 			'margin-left': unit ? (unit + loc) : loc
 		});
 	}
+  
 });
 
 
 
 </script>
-<script src="assets/js/bootstrap.js"></script>
-<link rel="stylesheet" type="text/css" href="assets/css/bootmetro.css"/>
-<link rel="stylesheet" type="text/css" href="assets/css/min/bootmetro.min.css"/>
-<link rel="stylesheet" type="text/css" href="assets/css/bootmetro-ui-light.css"/>
-<link rel="stylesheet" type="text/css" href="assets/css/min/bootmetro-ui-light.min.css"/>
-<link rel="stylesheet" type="text/css" href="assets/css/bootmetro-responsive.css"/>
+<script src="js/libs/togetherjs.js"></script>
 <script src="js/beximal.js"></script>
+
 </head>
+
 <body>
-	
-	
-	
-<div class="container">
-
 
 	
-	
 
+
+
+	
+	<div class="container-fluid">
 
 		<div class="slider">
 			<ul class="screen">
 				<li>
 
 <div class="module purple double img w">
-<a href="desktop.html">
+<a href="desktop.php">
     <p class="title">Home</p>
 <p class="subheading">Access the Desktop</p>
 </a>
@@ -922,7 +925,7 @@ $(function(){
    <p class="title">Wordpress</p>
   <a href="archersocial"> <p class="subheading">Access your social center</p></a>
 </div>
-<a href="/Producktiviti" class='wide blue cal_e'>
+<a href="/Producktiviti/SilverTick" class='wide blue cal_e'>
 				<h1><?php echo date("j"); ?></h1><p><?php echo date("l");?></p>
 	<h2 class="top cal_i">Today's Schedule</h2>
 				<i class="icon-calendar"></i>
@@ -936,13 +939,20 @@ $(function(){
 
 
 </li>
+<li>
+<div class="module green single img fb" id="birdc">
+<p class="title">Collaborate</p>
+</div>
+</li>
 </ul>
 </div>
 		
 
 </div>
 
-		<div id="screen-nav">
+		<div id="screen-nav">         
+                         
+
 			<button data-dir="prev"><</button>
 			<button data-dir="next">></button>
 		</div>
