@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
+    <title>My Desktop</title>
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Open+Sans:700,600' rel='stylesheet' type='text/css'>
 <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
 
