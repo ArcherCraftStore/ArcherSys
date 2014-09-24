@@ -4,8 +4,8 @@ ArcherSys
 
 Directions
 ==========
-- [ ] 1. Unzip
-- [ ] 2. Start Your Server Or VM
-- [ ] 3. Create DBs
-- [ ] 4. Create a account in the OS
+- [x] 1. Unzip
+- [x] 2. Start Your Server Or VM
+- [x] 3. Create DBs
+- [x] 4. Create a account in the OS
 
