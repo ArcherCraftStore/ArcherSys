@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+     <link rel="icon" sizes="192x192" href="/icon.png">
 <script src="js/libs/jquery.min.js"></script>
  <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="bootstrap.js"></script>
@@ -50,6 +51,8 @@ $(function(){
 
      <li><a class="brand" href="#">ArcherSys Desktop</a></li>
       <li><a href="wordpress">Social</a></li>
+      <li><script type="text/javascript" src="https://apis.google.com/js/platform.js"></script>
+<g:hangout render="createhangout"></g:hangout></li>
        
   </ul>
   
@@ -83,5 +86,7 @@ $(function(){
        </nav>
 
 </div>
+ <!-- Place this asynchronous JavaScript just before your </body> tag -->
+ 
 </body>
 </html>
