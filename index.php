@@ -74,7 +74,7 @@ header("Location: login.php");
 		
 		?>
 		
-<html>
+<html manifest="manifest.appcache">
 <head>
 <link rel="icon"  href="http://localhost:80/favicon.ico" >
 <title>VM Home</title>
