@@ -107,3 +107,11 @@
 {"app":"user_ldap","message":"user_ldap and user_webdavauth are incompatible. You may experience unexpected behaviour","level":2,"time":"2014-09-21T01:40:54+00:00"}
 {"app":"user_ldap","message":"user_ldap and user_webdavauth are incompatible. You may experience unexpected behaviour","level":2,"time":"2014-09-21T01:52:30+00:00"}
 {"app":"user_ldap","message":"user_ldap and user_webdavauth are incompatible. You may experience unexpected behaviour","level":2,"time":"2014-09-21T02:05:51+00:00"}
+{"app":"core","message":"Login failed: 'archeradmin' (Remote IP: '127.0.0.1', X-Forwarded-For: '')","level":2,"time":"2014-09-28T03:42:37+00:00"}
+{"app":"core","message":"Login failed: 'archeradmin' (Remote IP: '127.0.0.1', X-Forwarded-For: '')","level":2,"time":"2014-09-28T03:42:59+00:00"}
+{"app":"core","message":"Login failed: 'archeradmin' (Remote IP: '127.0.0.1', X-Forwarded-For: '')","level":2,"time":"2014-09-28T03:43:22+00:00"}
+{"app":"core","message":"Login failed: 'archeradmin' (Remote IP: '127.0.0.1', X-Forwarded-For: '')","level":2,"time":"2014-09-28T03:43:41+00:00"}
+{"app":"core","message":"Login failed: 'archerrot' (Remote IP: '127.0.0.1', X-Forwarded-For: '')","level":2,"time":"2014-09-28T03:44:00+00:00"}
+{"app":"core","message":"Login failed: 'archerroot' (Remote IP: '127.0.0.1', X-Forwarded-For: '')","level":2,"time":"2014-09-28T03:44:16+00:00"}
+{"app":"core","message":"Login failed: 'archeradmin' (Remote IP: '127.0.0.1', X-Forwarded-For: '')","level":2,"time":"2014-09-28T03:44:55+00:00"}
+{"app":"core","message":"Login failed: 'archerrot2' (Remote IP: '127.0.0.1', X-Forwarded-For: '')","level":2,"time":"2014-09-28T03:49:29+00:00"}

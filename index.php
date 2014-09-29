@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
 <?php
-
 require_once("config.php");
  // Connects to your Database
 
@@ -10,6 +9,7 @@ require_once("config.php");
 
  
  //checks cookies to make sure they are logged in
+
 
 
  
@@ -66,9 +66,7 @@ header("Location: login.php");
 
  }
 
-    
-
- 
+  
 
  
 		
@@ -850,7 +848,14 @@ img.prof{
 
 
 $(function(){
-    
+    Parse.User.logIn(prompt("UserName:"), prompt("Password:"), {
+  success: function(user) {
+   alert("Logged in!");
+  },
+  error: function(user, error) {
+   alert("Error");
+  }
+});
   var sliderUL = $('div.slider').children('ul'),
   	screens = sliderUL.find('li'),
 		screenWidth = screens.width(),
