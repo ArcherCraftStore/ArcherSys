@@ -78,7 +78,7 @@ header("Location: login.php");
 <title>VM Home</title>
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Open+Sans:700,600' rel='stylesheet' type='text/css'>
 <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
-
+<script src="vendor/tinymce/tinymce/tinymce.js"></script>
 <script src="js/libs/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
@@ -848,14 +848,7 @@ img.prof{
 
 
 $(function(){
-    Parse.User.logIn(prompt("UserName:"), prompt("Password:"), {
-  success: function(user) {
-   alert("Logged in!");
-  },
-  error: function(user, error) {
-   alert("Error");
-  }
-});
+   
   var sliderUL = $('div.slider').children('ul'),
   	screens = sliderUL.find('li'),
 		screenWidth = screens.width(),
@@ -881,7 +874,17 @@ $(function(){
 		}
 
 		transition(sliderUL, loc, direction);
-
+tinymce.init({
+    selector: "textarea",
+    plugins: [
+        "advlist autolink lists link image charmap print preview hr anchor pagebreak",
+        "searchreplace wordcount visualblocks visualchars code fullscreen",
+        "insertdatetime media nonbreaking save table contextmenu directionality",
+        "emoticons template paste textcolor colorpicker textpattern"
+    ],
+ 
+    
+});
 	});
 
 	function transition(container, loc, direction) {
@@ -904,6 +907,8 @@ $(function(){
 </script>
 <script src="js/libs/togetherjs.js"></script>
 <script src="js/beximal.js"></script>
+
+
 
 </head>
 
@@ -941,7 +946,7 @@ $(function(){
     </a>
 </div>
 <div class="module blue double img ps">
-<p class="title>
+<p class="title">CanvasShoppe</p>
 </div>
 
 </li>
@@ -949,6 +954,9 @@ $(function(){
 <div class="module green single img fb" id="birdc">
 <p class="title">Collaborate</p>
 </div>
+</li>
+<li>
+<textarea></textarea>
 </li>
 </ul>
 </div>
