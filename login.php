@@ -5,8 +5,17 @@
 <head>
    
  <link rel="stylesheet" type="text/css" href="css/login.css"/>
+
     <meta name="Content-Type" content="text/html;charset=utf-8">
+        <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
     <title>Login to the ArcherVM</title>
+    <script type="text/javascript">
+         function showRecaptcha(element) {
+           Recaptcha.create("AIzaSyAPx5WHasOtdyDoWMq2jnJ3RLId1MIeXgo", element, {
+             theme: "red",
+             callback: Recaptcha.focus_response_field});
+         }
+      </script>
   </head>
   <body>
     <div id="wrapper">
@@ -170,6 +179,18 @@
 <input type="text" placeholder="username" name="username"/>
 <input type="password" placeholder="password" name="pass"/>
 <input type="submit" name="submit"class="login"><i class="icon-ok"></i></button>
+
+     <div id="recaptcha_div"> <noscript>
+       <iframe src="http://www.google.com/recaptcha/api/noscript?k=AIzaSyAPx5WHasOtdyDoWMq2jnJ3RLId1MIeXgo"
+           height="300" width="500" frameborder="0"></iframe><br>
+       <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+       </textarea>
+       <input type="hidden" name="recaptcha_response_field"
+           value="manual_challenge">
+    </noscript></div>
+  
+      <input type="button" value="Show reCAPTCHA" onclick="showRecaptcha('recaptcha_div');"></input>
+
 </form>
 
 <div class="back box">

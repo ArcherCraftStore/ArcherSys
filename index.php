@@ -142,7 +142,7 @@ body {
     .module > div.img > p.sub-heading {
       margin-left: 50px;
       font-size: 18px;
-      width: 70%; 
+      width: 70%;
         text-decoration: none;
     }
 
@@ -519,7 +519,7 @@ button {
 
 footer {
   margin: 40px 0 0 0;
-  font-size: 12px; 
+  font-size: 12px;
 }
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200);
 
@@ -622,19 +622,19 @@ div[class^="icon"]{
 ::-webkit-scrollbar{
   width: 10px;
 	height: 10px;
-	cursor: pointer;	
+	cursor: pointer;
 }
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px 2px rgba(0,0,0,0.3);
     background: #007491;
 }
 ::-webkit-scrollbar-thumb {
-    background: #002f3b; 
+    background: #002f3b;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
     cursor: pointer;
 }
 ::selection{
-    background: mintcream; 
+    background: mintcream;
 }
 
 @keyframes flip{
@@ -642,10 +642,10 @@ div[class^="icon"]{
     transform: rotateX(0deg);
   }
   15%{
-    transform: rotateX(360deg);  
+    transform: rotateX(360deg);
   }
   100%{
-    transform: rotateX(360deg); 
+    transform: rotateX(360deg);
   }
 }
 
@@ -666,7 +666,7 @@ div[class^="icon"]{
 
 @keyframes fade{
   0%{
-    opacity: 0; 
+    opacity: 0;
   }
   10%{
     opacity: 1;
@@ -921,7 +921,7 @@ $(function(){
 				<li>
 
 <div class="module purple double img w">
-<a href="desktop.php">
+<a href="main.php">
     <p class="title">Home</p>
 <p class="subheading">Access the Desktop</p>
 </a>
@@ -935,13 +935,14 @@ $(function(){
 	<h2 class="top cal_i">Today's Schedule</h2>
 				<i class="icon-calendar"></i>
 			</a>
-<div class="module neonblue single img wo">
+<div class="module neonblue single img word">
     <a href="Producktiviti/PDFLint">
       <p class="title">PDFLint</p>
     </a>
 </div>
-
-
+<div class="module blue double img ps">
+<p class="title>
+</div>
 
 </li>
 <li>
@@ -955,7 +956,7 @@ $(function(){
 
 </div>
 
-		<div id="screen-nav">         
+		<div id="screen-nav">
                          
 
 			<button data-dir="prev"><</button>

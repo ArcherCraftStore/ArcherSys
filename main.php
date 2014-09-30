@@ -44,26 +44,21 @@ $(function(){
  });
  $("#lbactivate").click(function(){
   $("#mapsframe").hide();
-  $("#contentspace").append("<iframe id=\"lbview\"  width=\"1351\" height=\"594\" src=\"" + prompt("URL:") + "\"></iframe>");
+  $("#contentspace .tab-content").append("<iframe id=\"lbview\"  width=\"1700\" height=\"1004\" src=\"" + prompt("URL:") + "\"></iframe>");
  
    
  });
 });
 </script>
-<style>
-#contentspace ul,#contentspace   li {
-  list-style: none;
-  padding: 75px;;
-  margin: 0; }
-</style>
+
 </head>
 <body>
 <div class="container-fluid">
   <ul class="nav nav-tabs">
 
-     <li><a class="brand" href="#">ArcherSys Desktop</a></li>
+     <li><a class="active" href="#">ArcherSys Desktop</a></li>
       <li><a href="wordpress">Social</a></li>
-      
+      <li><a href="#tab">Tab 1</a></li>
        
   </ul>
   
@@ -87,7 +82,8 @@ $(function(){
   })();
 </script>
 <gcse:search></gcse:search>
-
+<div class="tab-content">
+</div>
 </div>
 <div class="container-fluid">
 
@@ -109,9 +105,9 @@ $(function(){
 <div class="container-fluid">
 
      <nav class="nav navbar-default navbar-fixed-bottom">
-         <button id="birdc" onclick="TogetherJS(this); return false;">Connect</button>
-         <button id="mapstoggler" >Show Maps</button>
-         <button id="lbactivate" >Show Maps</button>
+         <button id="birdc" class="btn btn-default btn-lg" onclick="TogetherJS(this); return false;">Connect</button>
+         <button class="btn btn-default btn-lg"  id="mapstoggler" >Show Maps</button>
+         <button class="btn btn-default btn-lg"  id="lbactivate" >Open Window</button>
         <div class="g-ytsubscribe" data-channel="GoogleDevelopers" data-layout="full" data-theme="dark" data-count="default" data-onytevent="onYtEvent"></div>
         <div class="g-plusone" data-size="small" data-href="https://twitter.com"></div>
 

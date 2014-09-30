@@ -1,3 +1,4 @@
 DirectoryIndex index.php
 
 AddHandler cgi-script .cgi .rb
+
