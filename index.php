@@ -883,8 +883,7 @@ plugins: [
    ],
 toolbar1 : "newdocument bold italic underline strikethrough alignleft aligncenter alignright alignjustify styleselect" ,
 toolbar2 : "formatselect fontselect fontsizeselect cut copy paste bullist numlist outdent indent blockquote undo redo removeformat subscript superscript save",
-toolbar3 : "insertdatetime forecolor backcolor",
-
+toolbar3 : "insertdatetime forecolor backcolor"
     
 });
 	});
@@ -958,7 +957,10 @@ toolbar3 : "insertdatetime forecolor backcolor",
 </div>
 </li>
 <li>
-<textarea></textarea>
+<form action="doc-create.php" method="post">
+<textarea name="content"></textarea>
+<input type="submit" value="Enter">
+</form>
 </li>
 </ul>
 </div>

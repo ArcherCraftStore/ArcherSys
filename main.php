@@ -7,6 +7,8 @@
     <title>ArcherSys Desktop</title>
      
 <script src="http://localhost:80/js/libs/jquery.min.js"></script>
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
  <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="bootstrap.js"></script>
 <link href="bootstrap.css" rel="stylesheet"/>
@@ -26,6 +28,7 @@ TogetherJSConfig_toolName = "BIRD";
   
 
 $(function(){
+$(".contentspace #tabs").tabs();
    var enabled = (enabled === true) ? false : true;
  $("#contentspace").append("<iframe id=\"mapsframe\" width=\"1261\" height=\"634\" frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/embed/v1/place?q=United%20States&key=AIzaSyAPx5WHasOtdyDoWMq2jnJ3RLId1MIeXgo&maptype=satellite\"></iframe>");
  $("#mapstoggler").click(function(){
@@ -44,7 +47,7 @@ $(function(){
  });
  $("#lbactivate").click(function(){
   $("#mapsframe").hide();
-  $("#contentspace .tab-content").append("<iframe id=\"lbview\"  width=\"1700\" height=\"1004\" src=\"" + prompt("URL:") + "\"></iframe>");
+  $("#contentspace #tabs-1").append("<iframe id=\"lbview\"  width=\"1700\" height=\"1004\" src=\"" + prompt("URL:") + "\"></iframe>");
  
    
  });
@@ -82,7 +85,21 @@ $(function(){
   })();
 </script>
 <gcse:search></gcse:search>
-<div class="tab-content">
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Nunc tincidunt</a></li>
+    <li><a href="#tabs-2">Proin dolor</a></li>
+    <li><a href="#tabs-3">Aenean lacinia</a></li>
+  </ul>
+  <div id="tabs-1">
+    
+  </div>
+  <div id="tabs-2">
+    
+  </div>
+  <div id="tabs-3">
+    
+  </div>
 </div>
 </div>
 <div class="container-fluid">
@@ -105,9 +122,11 @@ $(function(){
 <div class="container-fluid">
 
      <nav class="nav navbar-default navbar-fixed-bottom">
+     
          <button id="birdc" class="btn btn-default btn-lg" onclick="TogetherJS(this); return false;">Connect</button>
          <button class="btn btn-default btn-lg"  id="mapstoggler" >Show Maps</button>
          <button class="btn btn-default btn-lg"  id="lbactivate" >Open Window</button>
+        
         <div class="g-ytsubscribe" data-channel="GoogleDevelopers" data-layout="full" data-theme="dark" data-count="default" data-onytevent="onYtEvent"></div>
         <div class="g-plusone" data-size="small" data-href="https://twitter.com"></div>
 
