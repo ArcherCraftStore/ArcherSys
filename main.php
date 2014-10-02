@@ -2,13 +2,15 @@
 <html>
   <head>
   <link rel="icon"  href="favicon.png">
+  <?php require "config.php";
+  ?>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
     <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
     <title>ArcherSys Desktop</title>
      
 <script src="http://localhost:80/js/libs/jquery.min.js"></script>
-<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<script src="js/jquery-ui.js"></script>
  <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="bootstrap.js"></script>
 <link href="bootstrap.css" rel="stylesheet"/>
@@ -22,15 +24,18 @@ TogetherJSConfig_toolName = "BIRD";
 </script>
 <script src="/js/libs/togetherjs.js"></script>
 <script type="text/javascript" src="https://apis.google.com/js/platform.js"></script>
- 
+
 <script>
 
   
 
 $(function(){
-$(".contentspace #tabs").tabs();
+
+   var mapsvenabled = confirm("Use Street View?");
    var enabled = (enabled === true) ? false : true;
- $("#contentspace").append("<iframe id=\"mapsframe\" width=\"1261\" height=\"634\" frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/embed/v1/place?q=United%20States&key=AIzaSyAPx5WHasOtdyDoWMq2jnJ3RLId1MIeXgo&maptype=satellite\"></iframe>");
+ $("#contentspace #tabs #tabs-1").append("<iframe id=\"mapsframe\" width=\"1261\" height=\"634\" frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/embed/v1/place?q=United%20States&key=AIzaSyAPx5WHasOtdyDoWMq2jnJ3RLId1MIeXgo&maptype=satellite\"></iframe>");
+ $("#contentspace #tabs #tabs-2").append("<img id=\"mapssv\" width=\"1261\" height=\"634\" frameborder=\"0\" style=\"border:0\" src=\"http://maps.googleapis.com/maps/api/streetview?size=400x400&location=40.720032,-73.988354&key=AIzaSyAPx5WHasOtdyDoWMq2jnJ3RLId1MIeXgo\"></iframe>");
+$(" #tabs").tabs().resizable();
  $("#mapstoggler").click(function(){
 
 
@@ -47,8 +52,14 @@ $(".contentspace #tabs").tabs();
  });
  $("#lbactivate").click(function(){
   $("#mapsframe").hide();
-  $("#contentspace #tabs-1").append("<iframe id=\"lbview\"  width=\"1700\" height=\"1004\" src=\"" + prompt("URL:") + "\"></iframe>");
- 
+
+  
+var tabid = prompt("Tab ID:");
+    
+      $("#contentspace  div#tabs div#"+tabid).append("<iframe   width=\"1700\" height=\"1004\" src=\"" + prompt("URL:") + "\"></iframe>");
+ $("#contentspace #tabs #mapssv").remove();
+$("contentspace #tabs").tabs();
+
    
  });
 });
@@ -87,10 +98,11 @@ $(".contentspace #tabs").tabs();
 <gcse:search></gcse:search>
 <div id="tabs">
   <ul>
-    <li><a href="#tabs-1">Nunc tincidunt</a></li>
+    <li><a href="#tabs-1">Window - 1</a></li>
     <li><a href="#tabs-2">Proin dolor</a></li>
     <li><a href="#tabs-3">Aenean lacinia</a></li>
   </ul>
+  
   <div id="tabs-1">
     
   </div>
@@ -100,6 +112,7 @@ $(".contentspace #tabs").tabs();
   <div id="tabs-3">
     
   </div>
+</div>
 </div>
 </div>
 <div class="container-fluid">
@@ -118,10 +131,11 @@ $(".contentspace #tabs").tabs();
 </script>
 
 
-
+ <footer>
+      
 <div class="container-fluid">
 
-     <nav class="nav navbar-default navbar-fixed-bottom">
+     <nav class="nav navbar-default ">
      
          <button id="birdc" class="btn btn-default btn-lg" onclick="TogetherJS(this); return false;">Connect</button>
          <button class="btn btn-default btn-lg"  id="mapstoggler" >Show Maps</button>
@@ -133,7 +147,9 @@ $(".contentspace #tabs").tabs();
         
        </nav>
 </div>
+     </footer>
 </div>
+    
  <script type="text/javascript">
   (function() {
     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;

@@ -86,6 +86,10 @@ header("Location: login.php");
  <link rel="stylesheet" href="css/style.css">
 
 <style type="text/css">
+    
+    @media (min-width: 600px) {
+      font-size: 14px;
+}
 * { -webkit-font-smoothing:antialiased; -moz-font-smoothing:antialiased; -ms-font-smoothing:antialiased; -o-font-smoothing:antialiased; font-smoothing:antialiased; }
 
 /*.module:hover {
