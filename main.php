@@ -9,8 +9,11 @@
   
 
   ?>
-  
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <style>
+  body{
+    background-color: blue''
+  }
+  </style><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
     <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
     <title>ArcherSys Desktop</title>
     <script src="bird.js"></script>
