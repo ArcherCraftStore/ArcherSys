@@ -2,3 +2,4 @@ DirectoryIndex index.php
 
 AddHandler cgi-script .cgi .rb
 
+  Header set Access-Control-Allow-Origin "*"

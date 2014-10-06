@@ -1,1 +1,0 @@
-<div class="fb-like" data-href="https://facebook.com" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>

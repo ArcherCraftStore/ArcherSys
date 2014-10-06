@@ -9,9 +9,13 @@
   
 
   ?>
-  
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <style>
+  body{
+    background-color: blue''
+  }
+  </style><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
     <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+    <meta name="google-translate-customization" content="4ba60a2112a939eb-40cfa291caf2e2fd-g9d4b12fa44330b7e-c"></meta>
     <title>ArcherSys Desktop</title>
     <script src="bird.js"></script>
 <script src="http://localhost:80/js/libs/jquery.min.js"></script>
@@ -198,6 +202,11 @@ dump(data);
        </nav>
 </div>
      </footer>
+     <div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </div>
     
  <script type="text/javascript">

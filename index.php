@@ -74,6 +74,7 @@ header("Location: login.php");
 		
 <html manifest="manifest.appcache">
 <head>
+<meta charset="utf-8">
 <link rel="icon"  href="http://localhost:80/favicon.ico" >
 <title>VM Home</title>
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Open+Sans:700,600' rel='stylesheet' type='text/css'>
@@ -912,7 +913,7 @@ toolbar3 : "insertdatetime forecolor backcolor"
 </script>
 <script src="js/libs/togetherjs.js"></script>
 <script src="js/beximal.js"></script>
-
+<script src="js/mozilla/events.js"></script>
 
 
 </head>
