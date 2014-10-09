@@ -1,11 +1,14 @@
 /*
- * This is a JavaScript Scratchpad.
- *
- * Enter some JavaScript, then Right Click or choose from the Execute Menu:
- * 1. Run to evaluate the selected text (Ctrl+R),
- * 2. Inspect to bring up an Object Inspector on the result (Ctrl+I), or,
- * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
- */
+ * This is the ArcherSys OS Object Model.
+ 
+*
+ This deals with selectors and events
+*/
+
 
 var ArcherSys = new Object();
-ArcherSys.jQ = jQuery.noConflict();
+ArcherSys.jQ = jQuery.noConflict(); 
+ArcherSys.notifyOnline = function(e){
+     alert("You are online!");
+};
+ArcherSys.BeximalJS = BeximalJS;
