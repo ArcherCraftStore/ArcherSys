@@ -3,7 +3,7 @@
 require_once("config.php");
  // Connects to your Database
 
- mysql_connect("localhost", "root", "aco1234") or die(mysql_error());
+ mysql_connect("127.0.0.1", "root", "aco1234") or die(mysql_error());
 
  mysql_select_db("acoserver_acoserver") or die(mysql_error());
 
@@ -77,18 +77,21 @@ header("Location: login.php");
 <meta charset="utf-8">
 <link rel="icon"  href="http://localhost:80/favicon.ico" >
 <title>VM Home</title>
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Open+Sans:700,600' rel='stylesheet' type='text/css'>
-<meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
-<script src="vendor/tinymce/tinymce/tinymce.js"></script>
-<script src="js/libs/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
- <link rel="stylesheet" href="css/style.css">
 
+<link rel="manifest" href="manifest.webapp">
+<meta name="application-name" content="ArcherSys OS">
+<meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+<meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+<script src="js/libs/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+<script src="js/jquery-ui.min.js"></script>
+<script src="vendor/tinymce/tinymce/tinymce.js"></script>
+ <link rel="stylesheet" href="css/style.css">
+<script src="https://login.persona.org/include.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Open+Sans:700,600' rel='stylesheet' type='text/css'>
 <style type="text/css">
-    
-    @media (min-width: 600px) {
+     @media (min-width: 600px) {
       font-size: 14px;
 }
 * { -webkit-font-smoothing:antialiased; -moz-font-smoothing:antialiased; -ms-font-smoothing:antialiased; -o-font-smoothing:antialiased; font-smoothing:antialiased; }
@@ -849,22 +852,26 @@ img.prof{
 	bottom: 0px;
 }
 </style>
-<script>
-
-
-$(function(){
    
-  var sliderUL = $('div.slider').children('ul'),
+<script src="js/beximal.js"></script>
+<script src="js/archersysjs.js"></script>
+<script type="text/javascript">
+
+
+jQuery(document).ready(function(){
+    Notification.requestPermission();
+   jQuery(window).bind("online",ArcherSys.notifyOnline);
+  var sliderUL = jQuery('div.slider').children('ul'),
   	screens = sliderUL.find('li'),
 		screenWidth = screens.width(),
 		screenLength = screens.length,
 		current = 1,
 		totalScreenWidth = screenLength * screenWidth;
 
-	var h1 = $('div.header').children('h1');
+	var h1 = jQuery('div.header').children('h1');
 
-	$('#screen-nav').find('button').on('click', function() {
-		var direction = $(this).data('dir'),
+	jQuery('#screen-nav').find('button').on('click', function() {
+		var direction = jQuery(this).data('dir'),
 			loc = screenWidth;
 
 		(direction === 'next') ? ++current : --current;
@@ -879,20 +886,10 @@ $(function(){
 		}
 
 		transition(sliderUL, loc, direction);
-tinymce.init({
-    selector:'textarea',
-plugins: [
-         "advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker",
-         "searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
-       "save table contextmenu directionality emoticons template paste textcolor"
-   ],
-toolbar1 : "newdocument bold italic underline strikethrough alignleft aligncenter alignright alignjustify styleselect" ,
-toolbar2 : "formatselect fontselect fontsizeselect cut copy paste bullist numlist outdent indent blockquote undo redo removeformat subscript superscript save",
-toolbar3 : "insertdatetime forecolor backcolor"
-    
-});
+
 	});
 
+});
 	function transition(container, loc, direction) {
 		var unit;
 
@@ -906,15 +903,26 @@ toolbar3 : "insertdatetime forecolor backcolor"
 		});
 	}
   
-});
+
 
 
 
 </script>
-<script src="js/libs/togetherjs.js"></script>
-<script src="js/beximal.js"></script>
-<script src="js/mozilla/events.js"></script>
 
+<script src="js/libs/togetherjs.js"></script>
+
+<script src="js/mozilla/events.js"></script>
+<script>
+var signinLink = document.getElementById('signin');
+if (signinLink) {
+  signinLink.onclick = function() { navigator.id.request(); };
+}
+
+var signoutLink = document.getElementById('signout');
+if (signoutLink) {
+  signoutLink.onclick = function() { navigator.id.logout(); };
+}
+</script>
 
 </head>
 
@@ -931,15 +939,13 @@ toolbar3 : "insertdatetime forecolor backcolor"
 			<ul class="screen">
 				<li>
 
-<div class="module purple double img w">
-<a href="main.php">
-    <p class="title">Home</p>
-<p class="subheading">Access the Desktop</p>
-</a>
-</div>
+					<div class="module purple double img w">
+						<h2 class="title">Home</h2>
+					<p class="subheading"> <a href="main.php">Welcome to the new ArcherSys UI !</a> </p>
+					</div>
 <div class="module midblue double img twitter">
-   <p class="title">Wordpress</p>
-  <a href="archersocial"> <p class="subheading">Access your social center</p></a>
+   <h2 class="title">Wordpress</h2>
+ <p class="subheading"> <a href="archersocial">Access your social center</a></p>
 </div>
 <a href="/Producktiviti/SilverTick" class='wide blue cal_e'>
 				<h1><?php echo date("j"); ?></h1><p><?php echo date("l");?></p>
@@ -960,12 +966,12 @@ toolbar3 : "insertdatetime forecolor backcolor"
 <div class="module green single img fb" id="birdc">
 <p class="title">Collaborate</p>
 </div>
+<div class="module red single img mail">
+<h2 class="title">RoundCube Mail</p>
+</div>
 </li>
+
 <li>
-<form action="doc-create.php" method="post">
-<textarea name="content"></textarea>
-<input type="submit" value="Enter">
-</form>
 </li>
 </ul>
 </div>

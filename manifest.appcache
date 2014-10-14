@@ -5,6 +5,7 @@ https://apis.google.com/js/platform.js
 https://www.googleapis.com/generate_204
 https://togetherjs.com/togetherjs/togetherjs.css?bust=1411856896600
 https://togetherjs.com/togetherjs/libs/require.js?bust=1411856896600
+js/jquery-ui.min.js
 js/beximal.js
 bootstrap/js/bootstrap.min.js
 js/libs/jquery.min.js

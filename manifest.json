@@ -10,5 +10,10 @@
     "name": "ACOSF",
     "url": "http://archersys.github.io."
   },
-  "default_locale": "en"
+  "default_locale": "en",
+   "permissions": {
+  "desktop-notification": {
+    "description": "Allows to display notifications on the user's desktop."
+  }
+}
 }
