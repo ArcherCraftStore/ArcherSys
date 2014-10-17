@@ -1,0 +1,12 @@
+
+.header{
+background-color: #BEC0BE;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+width: 1008px;
+height: 100px;
+}
+.header h1{
+  font-family: Segoe UI;
+  text-align: center;
+ }

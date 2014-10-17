@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+
 <?php
 require_once("config.php");
  // Connects to your Database
@@ -72,7 +73,7 @@ header("Location: login.php");
 		
 		?>
 		
-<html manifest="manifest.appcache">
+<html manifest="manifest.appcache" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 <meta charset="utf-8">
 <link rel="icon"  href="http://localhost:80/favicon.ico" >
@@ -82,9 +83,16 @@ header("Location: login.php");
 <meta name="application-name" content="ArcherSys OS">
 <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
 <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
-<script src="js/libs/jquery.min.js"></script>
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
-<script src="js/jquery-ui.min.js"></script>
+<script src="core/js/libs/jquery.min.js"></script>
+<link rel="stylesheet" href="core/css/jquery-ui.css" />
+
+<link rel="stylesheet" href="core/css/jquery-ui.min.css" />
+<link rel="stylesheet" href="css/jquery-ui.theme.min.css" />
+
+<link rel="stylesheet" href="core/css/jquery-ui.structure.css" />
+<link rel="stylesheet" href="core/css/jquery-ui.structure.min.css" />
+<link rel="stylesheet" href="core/css/jquery-ui.theme.css" />
+<script src="core/js/jquery-ui.min.js"></script>
 <script src="vendor/tinymce/tinymce/tinymce.js"></script>
  <link rel="stylesheet" href="css/style.css">
 <script src="https://login.persona.org/include.js"></script>
@@ -852,7 +860,7 @@ img.prof{
 	bottom: 0px;
 }
 </style>
-   
+<script src="js/libs/localforage.min.js"></script>
 <script src="js/beximal.js"></script>
 <script src="js/archersysjs.js"></script>
 <script type="text/javascript">
@@ -884,6 +892,9 @@ jQuery(document).ready(function(){
 			current = 1;
 			loc = 0;
 		}
+                $(window.applicationCache).bind('onprogress',function(e){
+                    $("#osprog").progressbar({value: (e.total/e.loaded)});
+                 };
 
 		transition(sliderUL, loc, direction);
 
@@ -909,9 +920,9 @@ jQuery(document).ready(function(){
 
 </script>
 
-<script src="js/libs/togetherjs.js"></script>
+<script src="core/js/libs/togetherjs.js"></script>
 
-<script src="js/mozilla/events.js"></script>
+<script src="core/js/mozilla/events.js"></script>
 <script>
 var signinLink = document.getElementById('signin');
 if (signinLink) {
@@ -927,7 +938,14 @@ if (signoutLink) {
 </head>
 
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	
 
 
@@ -963,8 +981,9 @@ if (signoutLink) {
 
 </li>
 <li>
-<div class="module green single img fb" id="birdc">
+<div class="module green double img fb" id="birdc">
 <p class="title">Collaborate</p>
+<fb:like href="https://facebook.com/pages/ArcherSys" layout="standard" action="like" show_faces="true" share="true"></fb:like>
 </div>
 <div class="module red single img mail">
 <h2 class="title">RoundCube Mail</p>
@@ -972,8 +991,10 @@ if (signoutLink) {
 </li>
 
 <li>
+<div id="osprog"></div>
 </li>
 </ul>
+
 </div>
 		
 
@@ -985,6 +1006,7 @@ if (signoutLink) {
 			<button data-dir="prev"><</button>
 			<button data-dir="next">></button>
 		</div>
+
 </div>
 
 

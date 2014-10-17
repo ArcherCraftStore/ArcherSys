@@ -4,10 +4,10 @@
   
 <head>
    <!--[if IE]>
-      <link rel="stylesheet" type="text/css" href="css/login/screen-ie.css">
+      <link rel="stylesheet" type="text/css" href="core/css/login/screen-ie.css">
    <![endif]-->
 
- <link rel="stylesheet" type="text/css" href="css/login.css"/>
+ <link rel="stylesheet" type="text/css" href="core/css/login.css"/>
 
     <meta name="Content-Type" content="text/html;charset=utf-8">
         <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
