@@ -1,15 +1,23 @@
-window.addEventListener('load', function() {
-  var status = document.getElementById("status");
+$(function() {
+  var status = ArcherSys.jQ("#status");
 
-  function updateOnlineStatus(event) {
-    var condition = navigator.onLine ? "online" : "offline";
+    var condition = (window.navigator.onLine) ? "online" : "offline";
 
-    status.className = condition;
-    status.innerHTML = condition.toUpperCase();
+    status.addClass(condition);
+    status.html(condition.toUpperCase());
+  
 
-    log.insertAdjacentHTML("beforeend", "Event: " + event.type + "; Status: " + condition);
-  }
+ $(window).bind('online', function(){
+    condition = "online";
+    status.html(condition);
+    status.removeClass("offline");
+    status.addClass(condition);
+});
+ $(window).bind('offline',  function(){
+    condition = "offline";
+    status.html(condition);
+    status.removeClass("online");
+    status.addClass(condition);
+});
 
-  window.addEventListener('online',  updateOnlineStatus);
-  window.addEventListener('offline', updateOnlineStatus);
 });

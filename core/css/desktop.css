@@ -1,12 +1,4 @@
-/* --------------------------------------------
-CSS Dock
 
-Version: 	2.0
-Author:		Michael Hüneburg
-URL: 		http://michaelhue.com/cssdock
-Copyright: 	(c)2011 by Michael Hüneburg
-License: 	MIT License (see LICENSE file)
------------------------------------------------ */
 
 /* @group Animation */
 /* Defines the bounce animation. Note that only the up motion is defined as
@@ -262,18 +254,91 @@ background: linear-gradient(to bottom,  #4096ee 0%,#405fed 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#405fed',GradientType=0 ); /* IE6-9 */
 color: #fff;
 }
-.submenu{
+ul li.menuItem ul.submenu {
   opacity: 1 !important;
   background-color: #fff;
   padding: 5px 5px 0px 15px;
   position: absolute;
   margin-top: -2px;
-  margin-left: -8px;
+  margin-left: 10px;
   border-radius: 0px 0px 5px 5px;
   font-size: .85em;
   color: #333;
+  border: 1px dashed black;
+}
+ul li.menuItem ul.submenu {
+  opacity: 1 !important;
+  background-color: #fff;
+  padding: 5px 5px 0px 15px;
+  position: absolute;
+  margin-top: -2px;
+  margin-left: 30px;
+  border-radius: 0px 0px 5px 5px;
+  font-size: .85em;
+  color: #333;
+  border: 1px dashed black;
+}
+.submenu:hover, .submenu .menuItem:hover{
+  background: #4096ee; /* Old browsers */
+background: -moz-linear-gradient(top,  #4096ee 0%, #405fed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4096ee), color-stop(100%,#405fed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #4096ee 0%,#405fed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #4096ee 0%,#405fed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #4096ee 0%,#405fed 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #4096ee 0%,#405fed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#405fed',GradientType=0 ); /* IE6-9 */
+color: #fff;
 }
 
+.submenu .menuItem{
+  float: left;
+  margin-right: 100px;
+  padding-top: 3px;
+  font-family: arial;
+  color: #505050;
+  padding: 3px 8px 3px 8px;
+  
+}
+.submenu > li.menuItem > ul.submenu li:first-of-type{
+  font-size: 1.2em;
+  margin-left: 40px;
+  padding: 3px 8px 0px 8px;
+  height: 21px;
+}
+.submenu .menuItem:nth-child(2){
+  font-weight: bold;
+}
+#bar li.menuItem #status,li.menuItem #status:hover {
+  position : fixed;
+  width: 10%
+  font : bold 1em sans-serif;
+  color: #ffffff:
+  padding : 0.5em;
+  float: right;
+  text-decoration: none;
+}
+
+#log {
+  padding: 2.5em 0.5em 0.5em;
+  font: 1em sans-serif;
+}
+
+.online {
+  background-color: #aeee3a;
+color: white;
+font-family: Segoe UI;
+align-self: right;
+ text-decoration: none;
+}
+.online:hover{
+text-decoration: none;
+}
+
+.offline {
+  background: red;
+align-self: right;
+ text-decoration: none;
+}
 .submenu li{
   padding: 2px 0px;
   
@@ -294,3 +359,97 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', end
   width: 110%;
   margin: 5px 0px 5px -15px;
 }
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #222 url(http://f.cl.ly/items/3t2J1q0n2J2T0s120C0P/universe.jpg) 100%;
+}
+
+.notification {
+  height: 100px;
+  width: 410px;
+  margin: 20px;
+  position: relative;
+  border-radius: 10px;
+  
+  color: #4d4d4d;
+  font-family: Helvetica, Arial, sans-serif;
+  
+  -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,.5);
+          box-shadow: 3px 3px 3px rgba(0,0,0,.5);
+  
+  @include background-image(linear-gradient(rgba(255,255,255,0.9),rgba(235,235,235,0.9)));
+}
+
+.notification h2 {
+  padding: 20px 0 0 0px;
+  font: bold 18px Myriad, Helvetica, Arial, sans-serif;
+  text-shadow: 0px 2px 1px #fff;
+}
+
+.notification p {
+  font: bold 13px Myriad, Helvetica, Arial, sans-serif;
+  text-shadow: 0px 1px 1px #fff;
+}
+
+.notification img {
+  float: left;
+  padding: 10px 15px 0 15px;
+  width: 60px;
+}
+
+.buttons a {
+  display: block;
+  width: 60px;
+  margin: 5px;
+  padding: 8px;
+  position: absolute;
+  border: 1px solid #999;
+  border-radius: 5px;
+
+  color: #222;
+  font: 13px Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  
+  -webkit-box-shadow: 0px 1px 1px #fff;
+  box-shadow: 0px 1px 1px #fff;
+  @include background-image(linear-gradient(rgba(255,255,255,0.5), rgba(235,235,235,0.5)));
+}
+
+.buttons a:hover {
+   @include background-image(linear-gradient(rgba(255,255,255,1), rgba(235,235,235,1)));
+}
+
+.buttons a:nth-child(1) {
+  right: 10px;
+  top: 8px;
+}
+
+.buttons a:nth-child(2) {
+  right: 10px;
+  top: 50px;
+}
+
+.timeframe {
+  transition: opacity .5s;
+  z-index: 100;
+  text-align: center;
+  cursor: pointer;
+}
+time { font-size: 6rem; line-height: 8rem; }
+h2 {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+.timeframe h2:before,
+.timeframe h2:after {
+  content: "\2022";
+  color: rgba(200,200,200,.8);
+  padding: 0 .2rem;
+}
+input:checked ~ .timeframe { opacity: 0; }

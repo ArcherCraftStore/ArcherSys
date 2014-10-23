@@ -25,4 +25,5 @@ ArcherSys.Menu = {
       toggleSM: function(){
         ArcherSys.jQ(".submenu").toggle();
 }
+
 };
