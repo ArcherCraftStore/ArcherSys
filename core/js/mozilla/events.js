@@ -2,8 +2,12 @@ $(function() {
   var status = ArcherSys.jQ("#status");
 
     var condition = (window.navigator.onLine) ? "online" : "offline";
-
-    status.addClass(condition);
+     if(condition === "online"){
+       status.removeClass("offline");
+     }else if(condition === "online"){
+       status.removeClass("online");
+     }
+     status.addClass(condition);
     status.html(condition.toUpperCase());
   
 
@@ -19,5 +23,4 @@ $(function() {
     status.removeClass("online");
     status.addClass(condition);
 });
-
 });

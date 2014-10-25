@@ -4,6 +4,7 @@
 /* Defines the bounce animation. Note that only the up motion is defined as
    the down motion is created automatically using
    `animation-direction: alternate;`. */
+
 @-webkit-keyframes bounce {
 	  0% { -webkit-transform: translateY(0); }
 	100% { -webkit-transform: translateY(-20px); }
@@ -181,7 +182,7 @@ text-decoration: none;
 /* Sets the icons to a smaller width so they can be enlarged and applies
    transitions for a smooth animation. Make sure to adjust the width so it
    matches your images. */
-.dock img , .fa-lg{
+.dock img  .fa-wordpress{
 	width: 86px;
 	height: auto;
 	border: none;
@@ -225,7 +226,9 @@ ul, li{
   padding: 0;
   cursor: default;
 }
+
 .menuItem{
+ 
   float: left;
   margin-right: 10px;
   padding-top: 3px;
@@ -234,6 +237,7 @@ ul, li{
   padding: 3px 8px 3px 8px;
   
 }
+
 .menuItem:first-of-type{
   font-size: 1.2em;
   margin-left: 10px;
@@ -266,18 +270,7 @@ ul li.menuItem ul.submenu {
   color: #333;
   border: 1px dashed black;
 }
-ul li.menuItem ul.submenu {
-  opacity: 1 !important;
-  background-color: #fff;
-  padding: 5px 5px 0px 15px;
-  position: absolute;
-  margin-top: -2px;
-  margin-left: 30px;
-  border-radius: 0px 0px 5px 5px;
-  font-size: .85em;
-  color: #333;
-  border: 1px dashed black;
-}
+
 .submenu:hover, .submenu .menuItem:hover{
   background: #4096ee; /* Old browsers */
 background: -moz-linear-gradient(top,  #4096ee 0%, #405fed 100%); /* FF3.6+ */
@@ -291,6 +284,7 @@ color: #fff;
 }
 
 .submenu .menuItem{
+  
   float: left;
   margin-right: 100px;
   padding-top: 3px;
@@ -359,80 +353,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', end
   width: 110%;
   margin: 5px 0px 5px -15px;
 }
-* {
-  padding: 0;
-  margin: 0;
-}
 
-body {
-  background: #222 url(http://f.cl.ly/items/3t2J1q0n2J2T0s120C0P/universe.jpg) 100%;
-}
-
-.notification {
-  height: 100px;
-  width: 410px;
-  margin: 20px;
-  position: relative;
-  border-radius: 10px;
-  
-  color: #4d4d4d;
-  font-family: Helvetica, Arial, sans-serif;
-  
-  -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,.5);
-          box-shadow: 3px 3px 3px rgba(0,0,0,.5);
-  
-  @include background-image(linear-gradient(rgba(255,255,255,0.9),rgba(235,235,235,0.9)));
-}
-
-.notification h2 {
-  padding: 20px 0 0 0px;
-  font: bold 18px Myriad, Helvetica, Arial, sans-serif;
-  text-shadow: 0px 2px 1px #fff;
-}
-
-.notification p {
-  font: bold 13px Myriad, Helvetica, Arial, sans-serif;
-  text-shadow: 0px 1px 1px #fff;
-}
-
-.notification img {
-  float: left;
-  padding: 10px 15px 0 15px;
-  width: 60px;
-}
-
-.buttons a {
-  display: block;
-  width: 60px;
-  margin: 5px;
-  padding: 8px;
-  position: absolute;
-  border: 1px solid #999;
-  border-radius: 5px;
-
-  color: #222;
-  font: 13px Helvetica, Arial, sans-serif;
-  text-align: center;
-  text-decoration: none;
-  
-  -webkit-box-shadow: 0px 1px 1px #fff;
-  box-shadow: 0px 1px 1px #fff;
-  @include background-image(linear-gradient(rgba(255,255,255,0.5), rgba(235,235,235,0.5)));
-}
-
-.buttons a:hover {
-   @include background-image(linear-gradient(rgba(255,255,255,1), rgba(235,235,235,1)));
-}
-
-.buttons a:nth-child(1) {
-  right: 10px;
-  top: 8px;
-}
-
-.buttons a:nth-child(2) {
-  right: 10px;
-  top: 50px;
-}
 
 .timeframe {
   transition: opacity .5s;
@@ -453,3 +374,22 @@ h2 {
   padding: 0 .2rem;
 }
 input:checked ~ .timeframe { opacity: 0; }
+
+           .dialog_form th{
+             text-align:left;
+             border-radius: 3px;
+             font-family:Segoe UI, Century Gothic;
+           }
+           .dialog_form textarea, .dialog_form input[type=text]{
+             width: 320;
+             font-family: Segoe UI Light, Verdana;
+             font-weight: bold;
+           }
+           #dialog_window_minimized_container {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+ iframe.window{
+  align-self:center;
+}
