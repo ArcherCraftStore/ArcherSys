@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html manifest="manifest.json">
   <head>
   <link rel="icon"  href="favicon.png">
   <?php
@@ -11,7 +11,7 @@
   ?>
   <style>
   body{
-    background-color: blue''
+    background-color: blue;
   }
   </style><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
     <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
@@ -31,6 +31,7 @@
 <script src="assets/js/bootstrap.js"></script>
 <script>
 TogetherJSConfig_toolName = "BIRD";
+TogetherJSConfig_enableAnalytics = true;
 </script>
 <script src="/js/libs/togetherjs.js"></script>
 <script type="text/javascript" src="https://apis.google.com/js/platform.js"></script>
@@ -46,12 +47,22 @@ $(function(){
 
    var mapsvenabled = confirm("Use Street View?");
    var enabled = (enabled === true) ? false : true;
- $("#contentspace #tabs #tabs-1").append("<iframe id=\"mapsframe\" width=\"1261\" height=\"634\" frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/embed/v1/place?q=United%20States&key=AIzaSyAPx5WHasOtdyDoWMq2jnJ3RLId1MIeXgo&maptype=satellite\"></iframe>");
+ $("#contentspace #tabs #tabs-1").append("<iframe id=\"mapsframe\" width=\"1261\" height=\"634\" frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/embed/v1/place?q='United States'&key=AIzaSyAPx5WHasOtdyDoWMq2jnJ3RLId1MIeXgo&maptype=satellite\"></iframe>");
  $("#contentspace #tabs #tabs-2").append("<img id=\"mapssv\" width=\"1261\" height=\"634\" frameborder=\"0\" style=\"border:0\" src=\"http://maps.googleapis.com/maps/api/streetview?size=400x400&location=40.720032,-73.988354&key=AIzaSyAPx5WHasOtdyDoWMq2jnJ3RLId1MIeXgo\"></iframe>");
-$(" #tabs").tabs().resizable();
+$(" #tabs").tabs({
+ width: "1261px"
+}).resizable();
+with(ArcherSys.BIRD){
+TogetherJSConfig_toolName = this.toolName;
+TogetherJSConfig_enableAnalytics = this.enableAnalytics;
+TogetherJSConfig_storagePrefix = this.storagePrefix;
+TogetherJSConfig_youtube = this.youtube
+TogetherJSConfig_useMinimizedCode = this.useMinimizedCode
+}
 TogetherJSConfig_on_ready = function () {
   BIRD.on("visibilityChange", fireTogetherJSVisibility);
 };
+
  $("#mapstoggler").click(function(){
 
 
@@ -79,9 +90,7 @@ $("contentspace #tabs").tabs();
    
  });
 });
-function fireTogetherJSVisibility(element, isVisible) {
-  TogetherJS.send({type: "visibilityChange", isVisible: isVisible, element: element});
-}
+
 function fireTogetherJSVisibility(element, isVisible) {
   var elementFinder = TogetherJS.require("elementFinder");
   var location = elementFinder.elementLocation(element);
@@ -140,6 +149,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <li><a href="#tabs-1">Window - 1</a></li>
     <li><a href="#tabs-2">Proin dolor</a></li>
     <li><a href="#tabs-3">Aenean lacinia</a></li>
+    <li><a href="#tabs-4">Window-4</a></li>
+     <li><a href="#tabs-5">Window-4</a></li>
   </ul>
   
   <div id="tabs-1">
@@ -154,7 +165,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 dump(data);
     </script>
   </div>
+<div id="tabs-4">
+<iframe src="https://embed-ssl.ted.com/talks/kenneth_cukier_big_data_is_better_data.html" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
+<div id="tabs-5">
+<iframe width="450" height="259" src="//www.youtube.com/embed/Wh9r-hP-0Ig" frameborder="0" allowfullscreen></iframe>
 </div>
 </div>
 <div class="container-fluid">
@@ -171,37 +186,7 @@ dump(data);
     }
   }
 </script>
-
-
- <footer>
-      
-<div class="container-fluid">
-
-     <nav class="nav navbar-default ">
-     
-         <button id="birdc" class="btn btn-default btn-lg" onclick="TogetherJS(this); return false;">Connect</button>
-         <button class="btn btn-default btn-lg"  id="mapstoggler" >Show Maps</button>
-         <button class="btn btn-default btn-lg"  id="lbactivate" >Open Window</button>
-        
-        <div class="g-ytsubscribe" data-channel="GoogleDevelopers" data-layout="full" data-theme="dark" data-count="default" data-onytevent="onYtEvent"></div>
-        <div class="g-plusone" data-size="small" data-href="https://twitter.com"></div>
-<!-- Place the tag where you want the button to render -->
-<button
-  class="g-interactivepost"
-  data-contenturl="https://plus.google.com/pages/"
-  data-contentdeeplinkid="/pages"
-  data-clientid=" 601913270428-2jr0q7qae7qfgdknl1n0s8elvsolukk4.apps.googleusercontent.com"
-  data-cookiepolicy="single_host_origin"
-  data-prefilltext="Engage your users today, create a Google+ page for your business."
-  data-calltoactionlabel="CREATE"
-  data-calltoactionurl="http://plus.google.com/pages/create"
-  data-calltoactiondeeplinkid="/pages/create">
-  Tell your friends
-</button>
-        
-       </nav>
-</div>
-     </footer>
+<? include "footer.html" ?>
      <div id="google_translate_element"></div><script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');

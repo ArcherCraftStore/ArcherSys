@@ -3,7 +3,10 @@
 <html>
   
 <head>
-   
+   <!--[if IE]>
+      <link rel="stylesheet" type="text/css" href="css/login/screen-ie.css">
+   <![endif]-->
+
  <link rel="stylesheet" type="text/css" href="css/login.css"/>
 
     <meta name="Content-Type" content="text/html;charset=utf-8">
