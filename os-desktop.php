@@ -14,6 +14,7 @@
 
 <script>
       $(function(){
+
 $("#mainMenu").hover(function(){
   $("#mainMenu").children().show();
 }, function(){
@@ -67,8 +68,8 @@ TogetherJSConfig_enableAnalytics = true;
 </div></li>
 </ul>
 </div>
-<div>
-<iframe class="dock">
+<div class="main">
+<iframe class="window" webkitallowfullscreen></iframe>
 </div>
 <div class="dock" id="main">
 <ul>
@@ -77,11 +78,11 @@ TogetherJSConfig_enableAnalytics = true;
  <i class="fa fa-home fa-fw fa-5x"></i>
 </a>
 </li>
-<li><a href="Producktiviti/PDFLint"><em>PDFLint</em>
+<li class="asos-pdflint"><em>PDFLint</em>
 
 <i class="fa fa-pencil fa-5x fa-fw "></i>
-</a></li>
-<li><a href="/owncloud-serv"><em>Owncloud</em><i class="fa fa-cloud fa-5x"></i></li>
+</li>
+<li class="asos-owncloud"><em>ownCloud</em><i class="fa fa-cloud fa-5x"></i></li>
 </ul>
 </div>
 

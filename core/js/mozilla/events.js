@@ -4,6 +4,7 @@ $(function() {
     var condition = (window.navigator.onLine) ? "online" : "offline";
      if(condition === "online"){
        status.removeClass("offline");
+      
      }else if(condition === "online"){
        status.removeClass("online");
      }
@@ -22,5 +23,11 @@ $(function() {
     status.html(condition);
     status.removeClass("online");
     status.addClass(condition);
+});
+$(".asos-pdflint").click(function(){
+  $("iframe").attr("src", "http://localhost/Producktiviti/PDFLint);
+});
+$(".asos-owncloud").click(function(){
+  $("iframe").attr("src", "http://localhost/owncloud-serv");
 });
 });

@@ -32,6 +32,4 @@ ArcherSys.asyncFi._initStorage().then(function(){
    alert("AsyncStorage");
 });
 ArcherSys.asyncFi.setItem("connected", (window.navigator.onLine) ? true : false);
-window.onprogress = function(e){
-        ArcherSys.jQ("#pbar").progressbar({value: e.completed});
-};        
+ArcherSys.workspace = ArcherSys.jQ("iframe.window");
