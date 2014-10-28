@@ -1,6 +1,6 @@
 CACHE MANIFEST
 core/js/jquery.js
-http://localhost:80/index-desktop.php
+
 core/css/images/dock-m.png
 core/js/localforage.js
 core/js/localforage.min.js

@@ -3,6 +3,7 @@ DirectoryIndex index.php
 AddHandler cgi-script .cgi .rb
 AddType  text/x-handlebars .hbs
 
+
 ErrorDocument 404 /404.html
 
 ErrorDocument 401 /401.html

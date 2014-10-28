@@ -10,7 +10,6 @@ $(function() {
      }
      status.addClass(condition);
     status.html(condition.toUpperCase());
-  
 
  $(window).bind('online', function(){
     condition = "online";
@@ -25,7 +24,7 @@ $(function() {
     status.addClass(condition);
 });
 $(".asos-pdflint").click(function(){
-  $("iframe").attr("src", "http://localhost/Producktiviti/PDFLint);
+  $("iframe").attr("src", "http://localhost/Producktiviti/PDFLint");
 });
 $(".asos-owncloud").click(function(){
   $("iframe").attr("src", "http://localhost/owncloud-serv");

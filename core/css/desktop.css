@@ -1,4 +1,6 @@
 
+/* ArcherSys Desktop */
+
 
 /* @group Animation */
 /* Defines the bounce animation. Note that only the up motion is defined as
@@ -206,8 +208,12 @@ text-decoration: none;
   font-family: arial;
 }
 body, .main{
-  background-image: url('http://www.tonymacx86.com/attachments/apple-news-rumors/58155d1370539336-mac-os-x-10-0-10-8-wallpaper-intro-videos-defaultdesktop.jpg');
+  background: url('http://www.tonymacx86.com/attachments/apple-news-rumors/58155d1370539336-mac-os-x-10-0-10-8-wallpaper-intro-videos-defaultdesktop.jpg') no-repeat;
   background-size: cover;
+ 
+}
+.desktop{
+ width: 1261px;
 }
 #bar{
   width: 100%;

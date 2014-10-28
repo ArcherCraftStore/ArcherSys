@@ -1537,3 +1537,4 @@
 {"app":"roundcube","message":"OC_RoundCube_App.class.php->refresh(): Failed to refresh the RC session.","level":3,"time":"2014-10-27T03:23:13+00:00"}
 {"app":"roundcube","message":"OC_RoundCube_App.class.php->refresh(): Failed to refresh the RC session.","level":3,"time":"2014-10-27T03:27:12+00:00"}
 {"app":"roundcube","message":"OC_RoundCube_App.class.php->refresh(): Failed to refresh the RC session.","level":3,"time":"2014-10-27T03:31:14+00:00"}
+{"app":"roundcube","message":"OC_RoundCube_App.class.php->refresh(): Failed to refresh the RC session.","level":3,"time":"2014-10-28T16:32:14+00:00"}

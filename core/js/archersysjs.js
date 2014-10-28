@@ -1,4 +1,4 @@
-/*
+/*/*
  * This is the ArcherSys OS Object Model.
  
 *
@@ -33,3 +33,15 @@ ArcherSys.asyncFi._initStorage().then(function(){
 });
 ArcherSys.asyncFi.setItem("connected", (window.navigator.onLine) ? true : false);
 ArcherSys.workspace = ArcherSys.jQ("iframe.window");
+ArcherSys.toggleBIRD = function(){
+        $("iframe").animate({
+             width: "900px"
+});
+       TogetherJS(this);
+  return false;
+};
+ArcherSys.feedbackAdapter = {
+   renderAFRSClient: function(){
+     <iframe src="https://docs.google.com/forms/d/19cdtVnKaBmW4XlZTdWjFuHwNIy5CmVja4OznuUwBaKU/viewform?embedded=true" width="900" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    }
+};
