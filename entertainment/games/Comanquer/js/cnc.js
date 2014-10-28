@@ -3595,7 +3595,7 @@ $(function() {
 	    levelDetails : {
 	        "gdi1" :{
 	            mapUrl: 'maps/gdi/map01.jpeg', // The background map to load
-	            startingCash:3000,
+	            startingCash:10000,
 	            terrain : [
 	                {x1:0,y1:27,x2:30,y2:30,type:'water'},
 	                {x1:0,y1:26,x2:6,y2:26,type:'water'},

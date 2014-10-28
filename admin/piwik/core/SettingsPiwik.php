@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Piwik - free/libre analytics platform
  *
@@ -9,7 +10,7 @@
 namespace Piwik;
 
 use Exception;
-
+@ini_set("max_execution_time", 18000);
 /**
  * Contains helper methods that can be used to get common Piwik settings.
  *
