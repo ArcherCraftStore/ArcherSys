@@ -1,5 +1,5 @@
 <?php
 $content   = 'EK-GC([0-9]{3})|Coolpix S800c';
-$expires_on   = 1414534399;
+$expires_on   = 1415137189;
 $cache_complete   = true;
 ?>

@@ -1,7 +1,7 @@
 <?php
 $content   = array (
   'isBrowserTriggerEnabled' => true,
-  'lastTrackerCronRun' => '1414517486',
+  'lastTrackerCronRun' => '1415050817',
   'PrivacyManager.useAnonymizedIpForVisitEnrichment' => true,
   'PrivacyManager.ipAddressMaskLength' => 1,
   'PrivacyManager.doNotTrackEnabled' => true,
@@ -9,6 +9,6 @@ $content   = array (
   'currentLocationProviderId' => 'default',
   'CustomVariables.MaxNumCustomVariables' => 5,
 );
-$expires_on   = 1414518535;
+$expires_on   = 1415054232;
 $cache_complete   = true;
 ?>

@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Parse\\' => array($vendorDir . '/parse/php-sdk/src/Parse'),
+    'Fxp\\Composer\\AssetPlugin\\' => array($vendorDir . '/fxp/composer-asset-plugin'),
 );

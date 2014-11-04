@@ -1,29 +1,54 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>GheddoBox</title>
-</head>
-<body>
-<script src="http://connect.soundcloud.com/sdk.js"></script>
-<script>
-// initialize client with app credentials
-SC.initialize({
-  client_id: '289d14c5f3cb11ae08cb6d18ec6f1ff8',
-  redirect_uri: 'https://vm-0.archervmperidot.kd.io'
-});
+<?php
+/**
+ * @package		Joomla.Site
+ * @copyright	Copyright (C) 2005 - 2014 Open Source Matters, Inc. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-// initiate auth popup
-SC.connect(function() {
-  SC.get('/me', function(me) { 
-    alert('Hello, ' + me.username);
-var iframeElement   = document.querySelector('iframe');
-var main        = SC.Widget(iframeElement);
- 
-  });
-});
-</script>
-<h1 style="font-family: Segoe UI; text-align: center;">GheddoBox</h1>
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/52911936&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-<iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Facosf&color=orange_white&size=32" style="width: 32px; height: 32px;"></iframe>
-</body>
-</html>
+// Set flag that this is a parent file.
+define('_JEXEC', 1);
+define('DS', DIRECTORY_SEPARATOR);
+
+if (file_exists(dirname(__FILE__) . '/defines.php')) {
+	include_once dirname(__FILE__) . '/defines.php';
+}
+
+if (!defined('_JDEFINES')) {
+	define('JPATH_BASE', dirname(__FILE__));
+	require_once JPATH_BASE.'/includes/defines.php';
+}
+
+require_once JPATH_BASE.'/includes/framework.php';
+
+// Mark afterLoad in the profiler.
+JDEBUG ? $_PROFILER->mark('afterLoad') : null;
+
+// Instantiate the application.
+$app = JFactory::getApplication('site');
+
+// Initialise the application.
+$app->initialise();
+
+// Mark afterIntialise in the profiler.
+JDEBUG ? $_PROFILER->mark('afterInitialise') : null;
+
+// Route the application.
+$app->route();
+
+// Mark afterRoute in the profiler.
+JDEBUG ? $_PROFILER->mark('afterRoute') : null;
+
+// Dispatch the application.
+$app->dispatch();
+
+// Mark afterDispatch in the profiler.
+JDEBUG ? $_PROFILER->mark('afterDispatch') : null;
+
+// Render the application.
+$app->render();
+
+// Mark afterRender in the profiler.
+JDEBUG ? $_PROFILER->mark('afterRender') : null;
+
+// Return the response.
+echo $app;

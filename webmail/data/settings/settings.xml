@@ -2,7 +2,7 @@
 <Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Common>
 		<!-- Default title that will be shown in browser's header (Default domain settings). -->
-		<SiteName>AfterLogic WebMail Lite</SiteName>
+		<SiteName>ArrowHeadMail</SiteName>
 		<!-- License key is supplied here. -->
 		<LicenseKey />
 		<AdminLogin>mailadm</AdminLogin>
@@ -22,7 +22,7 @@
 		<DefaultTimeZone>0</DefaultTimeZone>
 		<DefaultTimeFormat>F12</DefaultTimeFormat>
 		<DefaultDateFormat>MM/DD/YYYY</DefaultDateFormat>
-		<AllowRegistration>Off</AllowRegistration>
+		<AllowRegistration>On</AllowRegistration>
 		<RegistrationDomains />
 		<RegistrationQuestions />
 		<AllowPasswordReset>Off</AllowPasswordReset>
@@ -39,18 +39,18 @@
 		<IncomingMailProtocol>IMAP4</IncomingMailProtocol>
 		<IncomingMailServer>imap.gmail.com</IncomingMailServer>
 		<IncomingMailPort>993</IncomingMailPort>
-		<IncomingMailUseSSL>Off</IncomingMailUseSSL>
+		<IncomingMailUseSSL>On</IncomingMailUseSSL>
 		<OutgoingMailServer>smtp.gmail.com</OutgoingMailServer>
 		<OutgoingMailPort>465</OutgoingMailPort>
 		<OutgoingMailAuth>AuthCurrentUser</OutgoingMailAuth>
 		<OutgoingMailLogin />
 		<OutgoingMailPassword />
-		<OutgoingMailUseSSL>Off</OutgoingMailUseSSL>
+		<OutgoingMailUseSSL>On</OutgoingMailUseSSL>
 		<OutgoingSendingMethod>Specified</OutgoingSendingMethod>
 		<UserQuota>0</UserQuota>
 		<ShowQuotaBar>On</ShowQuotaBar>
 		<AutoCheckMailInterval>1</AutoCheckMailInterval>
-		<DefaultSkin>AfterLogic</DefaultSkin>
+		<DefaultSkin>Default</DefaultSkin>
 		<MailsPerPage>20</MailsPerPage>
 		<AllowUsersChangeInterfaceSettings>On</AllowUsersChangeInterfaceSettings>
 		<AllowUsersChangeEmailSettings>On</AllowUsersChangeEmailSettings>

@@ -1,7 +1,7 @@
 <?php
 
 
-$aSieveDomains = array('imap.mail.google.com', 'imap.domain2.com');
+$aSieveDomains = array('imap.mail.google.com', 'imap.domain2.com','imap.comcast.net');
 
 
 return array(

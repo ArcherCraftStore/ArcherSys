@@ -335,6 +335,22 @@ align-self: right;
 text-decoration: none;
 }
 
+.NO-BIRD {
+  background: red;
+align-self: right;
+ text-decoration: none;
+}
+.BIRD {
+  background-color: #aeee3a;
+color: white;
+font-family: Segoe UI;
+align-self: right;
+ text-decoration: none;
+}
+.online:hover{
+text-decoration: none;
+}
+
 .offline {
   background: red;
 align-self: right;
@@ -398,5 +414,6 @@ input:checked ~ .timeframe { opacity: 0; }
     left: 0px;
 }
  .window{
-width: 1261px;
-height: 380px;}
+width: 1100px;
+height: 380px;
+}

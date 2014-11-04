@@ -8,12 +8,28 @@
 <script src="core/js/libs/jquery.min.js"></script>
 <script src="core/js/jquery-ui.min.js"></script>
 
+<script src="core/js/time.js"></script>
 
- <script src="https://togetherjs.com/togetherjs-min.js"></script>
+<script src="core/js/ximal.js"></script>
 
+<script src="core/js/localforage.min.js"></script>
 <script src="https://login.persona.org/include.js"></script>
 <link rel="stylesheet" type="text/css" href="core/css/jquery-ui.css">
-<script src="core/js/localforage.js"></script>   
+
+     
+<link rel="stylesheet" href="core/bootstrap-tour/build/css/bootstrap-tour.css">
+
+<link rel="stylesheet"  href="core/bootstrap-tour/build/css/bootstrap-tour.min.css">
+<link rel="stylesheet"  href="core/bootstrap-tour/build/css/bootstrap-tour-standalone.css">
+<link rel="stylesheet"  href="core/bootstrap-tour/build/css/bootstrap-tour-standalone.min.css">
+
+<script src="core/js/bootbox.min.js"></script>
+<script src="core/bootstrap/js/bootbox.min.js"></script>
+<script src="core/js/archersysjs.js"></script>
+<script src="core/js/localforage.js"></script>
+
+
+  
 <script>
       jQuery(function($){
 
@@ -27,35 +43,79 @@ $("#file").hover(function(){
 }, function(){
   $("#file").children().hide();
 });
-TogetherJSConfig_enableAnalytics = true;
-TogetherJSConfig_toolName="BIRD";
-TogehterJSConfig_cloneClicks = true;
-$(".asos-bird").click(function(){
-$("iframe").animate({
-             width: "900px"
+
+ TogetherJSConfig_enableAnalytics = true;
+
+TogetherJSConfig_hubBase = "https://bird-c9-acosf.c9.io";
+ TogetherJSConfig_toolName ="BIRD";
+ TogetherJSConfig_cloneClicks = "#main";
+ TogetherJSConfig_findRoom = "Desktop";
+ TogetherJSConfig_inviteFromRoom = true;
+ TogetherJSConfig_youtube = true;
+  window.setInterval(function(){
+     if(TogetherJS.running){
+    console.log("BIRD Running");
+  }
+},60000);
+TogetherJS.on("bye",function(msg){
+     $("iframe").animate({
+             width: "1200px"
+    });
+
 });
-       TogetherJS(this);
-  return false;
+$("#bird-base").html(TogetherJSConfig_hubBase);
+  $(" #yt").click(function(){
+    
+        $("iframe").attr("src","//www.youtube.com/embed/qOsEABeHk5Y?list=PLhiFsDMzQiU7UFUKlh9Q7YHUhEpiFkfuK");
+ $("iframe").attr("width","560");
+$("iframe").attr("height","315"); 
+ $("iframe").attr("frameborder","0"); 
+$("iframe").attr("allowfullscreen","true");
+       TogetherJS.reinitialize();
 });
-$(document).keypress(function(event){
+
+$(".asos-bird").click(ArcherSys.toggleBIRD);
+
+     TogetherJS_hub_on = {
+    "togetherjs.hello":function(msg){
+     alert("Say Hello to "+ msg.name);
+
+}
+};  
+$("#signin").click(function(){
+
 
 window.navigator.id.get();
 
-});
 
+});
    
     });
-</script>
-<script src="core/js/time.js"></script>
-<script src="core/js/localforage.min.js"></script>
-<script src="core/js/ximal.js"></script>
+var introTour = new Tour({
+     steps: [
+      {
+        element: "#main",
+        title: "Start",
+        content: "Welcome To ArcherSys Desktop! To get Started, click on a button in the dock"
+        },
+ {
+   element: "#bar",
+   title: "Menu",
+   content: " Access Links by clicking on the menu"
+}
+]});
 
+
+introTour.init();
+introTour.start();
+</script>
+
+ <script src="core/js/libs/min/togetherjs-min.js"></script>
 <link rel="stylesheet" type="text/css" href="core/css/desktop.css"/>
 <link rel="stylesheet" type="text/css" href="core/font-awesome/css/font-awesome.min.css"/>
 
-<script src="core/js/mozilla/events.js"></script>
-<script src="core/js/archersysjs.js"></script>
 
+<script src="core/js/mozilla/events.js"></script>
 <body>
 
 <div id="bar">
@@ -66,6 +126,7 @@ window.navigator.id.get();
       <ul class="submenu">
          
          <li>ArcherSys Desktop</li>
+        <li id="bird-base"></li>
         
       </ul>
       
@@ -78,15 +139,18 @@ window.navigator.id.get();
              </ul>
           </li>
           </ul></li>
-   <li class="menuItem"><div id="status">
+   <li class="menuItem">
+<div id="status"></div>
 
-</div></li>
-<li class="menuItem"id="signin" >Sign In</li>
+</li>
+<li class="menuItem" id="signin" >Sign In</li>
+<li class="menuItem" id="yt">YouTube</li>
 </ul>
 </div>
 
 <div class="main" id="window">
 <iframe class="window" webkitallowfullscreen></iframe>
+<div id="loc"></div>
 </div>
 <div class="dock" id="main">
 <ul>

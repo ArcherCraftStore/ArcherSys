@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b74aed0bdcd63d1634eccd504d33429d",
+    "hash": "15188cdb09ec80d3981d969588ae4d5f",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -431,6 +431,62 @@
             "time": "2014-09-09 13:34:57"
         },
         {
+            "name": "fxp/composer-asset-plugin",
+            "version": "v1.0.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/francoispluchino/composer-asset-plugin.git",
+                "reference": "8a8e37791db7c42ee293c89818fa33c814806ef9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/francoispluchino/composer-asset-plugin/zipball/8a8e37791db7c42ee293c89818fa33c814806ef9",
+                "reference": "8a8e37791db7c42ee293c89818fa33c814806ef9",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0@dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Fxp\\Composer\\AssetPlugin\\FxpAssetPlugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fxp\\Composer\\AssetPlugin\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Pluchino",
+                    "email": "francois.pluchino@gmail.com"
+                }
+            ],
+            "description": "NPM/Bower Dependency Manager for Composer",
+            "homepage": "https://github.com/francoispluchino/composer-asset-plugin",
+            "keywords": [
+                "asset",
+                "bower",
+                "composer",
+                "dependency manager",
+                "nodejs",
+                "npm",
+                "package"
+            ],
+            "time": "2014-10-12 13:06:07"
+        },
+        {
             "name": "google/apiclient",
             "version": "dev-master",
             "source": {
@@ -568,6 +624,45 @@
             "time": "2014-10-15 19:36:56"
         },
         {
+            "name": "j7mbo/twitter-api-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/J7mbo/twitter-api-php.git",
+                "reference": "ab76f1c1e6bf83f0a257216cbaf9932b7cc19a3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/J7mbo/twitter-api-php/zipball/ab76f1c1e6bf83f0a257216cbaf9932b7cc19a3f",
+                "reference": "ab76f1c1e6bf83f0a257216cbaf9932b7cc19a3f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "TwitterAPIExchange.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU Public License"
+            ],
+            "authors": [
+                {
+                    "name": "James Mallison",
+                    "homepage": "https://github.com/j7mbo/twitter-api-php"
+                }
+            ],
+            "description": "Simple PHP Wrapper for Twitter API v1.1 calls",
+            "homepage": "https://github.com/j7mbo/twitter-api-php",
+            "keywords": [
+                "api",
+                "php",
+                "twitter"
+            ],
+            "time": "2013-10-03 10:04:59"
+        },
+        {
             "name": "knplabs/github-api",
             "version": "dev-master",
             "source": {
@@ -627,6 +722,95 @@
                 "github"
             ],
             "time": "2014-09-23 05:58:10"
+        },
+        {
+            "name": "mashape/unirest-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mashape/unirest-php.git",
+                "reference": "e362fe01ec864e6d3363f750a2309aa1dd407a72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mashape/unirest-php/zipball/e362fe01ec864e6d3363f750a2309aa1dd407a72",
+                "reference": "e362fe01ec864e6d3363f750a2309aa1dd407a72",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "vierbergenlars/simpletest": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Unirest": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mashape",
+                    "email": "support@mashape.com",
+                    "homepage": "http://mashape.com"
+                }
+            ],
+            "description": "Unirest PHP",
+            "homepage": "https://github.com/Mashape/unirest-php",
+            "keywords": [
+                "client",
+                "curl",
+                "http",
+                "rest"
+            ],
+            "time": "2014-05-01 19:54:50"
+        },
+        {
+            "name": "oauth-io/oauth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oauth-io/sdk-php.git",
+                "reference": "c295943306ecee370fcce3d0e71af38034ba4b0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oauth-io/sdk-php/zipball/c295943306ecee370fcce3d0e71af38034ba4b0d",
+                "reference": "c295943306ecee370fcce3d0e71af38034ba4b0d",
+                "shasum": ""
+            },
+            "require": {
+                "mashape/unirest-php": "dev-master",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "OAuth_io": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "oauth-io",
+                    "email": "support@oauth.io"
+                }
+            ],
+            "description": "OAuth that just works !",
+            "time": "2014-09-25 12:14:52"
         },
         {
             "name": "parse/php-sdk",
@@ -730,12 +914,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "99cfa8edf0108b9dcdb9a7fb1a6ab1224c5c6422"
+                "reference": "d9131014f599e34e42f751ab546efd2fa2ca3b32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/99cfa8edf0108b9dcdb9a7fb1a6ab1224c5c6422",
-                "reference": "99cfa8edf0108b9dcdb9a7fb1a6ab1224c5c6422",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/d9131014f599e34e42f751ab546efd2fa2ca3b32",
+                "reference": "d9131014f599e34e42f751ab546efd2fa2ca3b32",
                 "shasum": ""
             },
             "require": {
@@ -838,7 +1022,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-10-27 21:48:40"
+            "time": "2014-10-28 15:57:53"
         },
         {
             "name": "tinymce/tinymce",
@@ -976,6 +1160,52 @@
                 "templating"
             ],
             "time": "2014-10-17 13:00:03"
+        },
+        {
+            "name": "zeflasher/x-oauth-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/zeflasher/x-oauth-php.git",
+                "reference": "cbf7fe6f3f27e3160a1706f3c6a305b60dc8db47"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/zeflasher/x-oauth-php/get/cbf7fe6f3f27e3160a1706f3c6a305b60dc8db47.zip",
+                "reference": "cbf7fe6f3f27e3160a1706f3c6a305b60dc8db47",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zeflasher\\OAuth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Xavier Martin",
+                    "email": "zeflasher+xoauth@gmail.com",
+                    "homepage": "http://dev.webbymx.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "OAuth and XAuth client/server",
+            "homepage": "https://bitbucket.org/zeflasher/x-oauth-php",
+            "keywords": [
+                "oauth",
+                "xauth"
+            ],
+            "time": "2014-10-08 23:13:28"
         }
     ],
     "packages-dev": [],
@@ -983,7 +1213,11 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "knplabs/github-api": 20,
-        "symfony/http-kernel": 20
+        "symfony/http-foundation": 20,
+        "symfony/http-kernel": 20,
+        "j7mbo/twitter-api-php": 20,
+        "oauth-io/oauth": 20,
+        "zeflasher/x-oauth-php": 20
     },
     "prefer-stable": false,
     "platform": [],

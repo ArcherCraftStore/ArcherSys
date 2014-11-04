@@ -34,14 +34,19 @@ ArcherSys.asyncFi._initStorage().then(function(){
 ArcherSys.asyncFi.setItem("connected", (window.navigator.onLine) ? true : false);
 ArcherSys.workspace = ArcherSys.jQ("iframe.window");
 ArcherSys.toggleBIRD = function(){
-        $("iframe").animate({
+$("iframe").animate({
              width: "900px"
 });
        TogetherJS(this);
-  return false;
+  
 };
-ArcherSys.feedbackAdapter = {
-   renderAFRSClient: function(){
-     <iframe src="https://docs.google.com/forms/d/19cdtVnKaBmW4XlZTdWjFuHwNIy5CmVja4OznuUwBaKU/viewform?embedded=true" width="900" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-    }
+
+
+ArcherSys.openMozVideo = function(){
+$(".window").prepend();
+$("<video height=\"180\" width=\"300\" id=\"PopCorn\" controls>"+
+      "<source src=\"http://videos.mozilla.org/serv/webmademovies/popcornplug.mp4\">"+
+     " <source src=\"http://videos.mozilla.org/serv/webmademovies/popcornplug.ogv\">" +
+      "<source src=\"http://videos.mozilla.org/serv/webmademovies/popcornplug.webm\">"+
+    "</video>").appendTo(".desktop");
 };

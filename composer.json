@@ -17,12 +17,14 @@
         "parse/php-sdk": "1.0.*",
         "tinymce/tinymce": "4.1.5",
         "google/apiclient": "1.0.*",
-        "symfony/symfony": "2.x",
-        "symfony/console": "2.x",
-        "symfony/http-foundation": "2.x",
-        "symfony/http-kernel": "~2.6@dev",
-        "abraham/twitteroauth": "dev-master",
-        "fxp/composer-asset-plugin": "1.0.0-beta3"
+        "symfony/symfony": "2.6",
+        "symfony/console": "2.6",
+        "symfony/http-foundation": "2.6",
+        "symfony/http-kernel": "2.6",
+        "fxp/composer-asset-plugin": "1.0.0-beta3",
+        "j7mbo/twitter-api-php": "dev-master",
+        "oauth-io/oauth": "dev-master",
+        "zeflasher/x-oauth-php": "dev-master"
     }
 
     

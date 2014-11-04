@@ -19,9 +19,9 @@ if(isset($_COOKIE['ID_my_site']))
 
  {
 
- 	$username = $request->cookies->get('ID_my_site');
+ 	$username = $_COOKIES['ID_my_site'];
 
- 	$pass = $request->cookies->get('Key_my_site');
+ 	$pass = $_COOKIES['Key_my_site'];
 
  	 	$check = mysql_query("SELECT * FROM users WHERE username = '$username'")or die(mysql_error());
 
@@ -30,7 +30,7 @@ if(isset($_COOKIE['ID_my_site']))
  		{
 
  
--
+
  //if the cookie has the wrong password, they are taken to the login page
 
  		if ($pass != $info['password'])

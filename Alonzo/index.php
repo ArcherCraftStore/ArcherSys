@@ -1,47 +1,56 @@
 <!DOCTYPE HTML>
 <html>
-<meta name="viewport" content="width=device-width  initial-scale=1.0 user-scalable=no" >
-<script type="text/javascript" src="core/js/jquery.js"></script>
-<script src="core/js/libs/jquery.min.js"></script>
-<script src="core/js/jquery-ui.min.js"></script>
+<head>
+<title>Alonzo Chat Bundle</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css">
+<script src="bootstrap/js/bootstrap.js"></script>
+<style>
+.jumbotron{
+background: url("logo.png")  no-repeat;
+background-size: cover;
+}
 
-
- 
-<link rel="stylesheet" type="text/css" href="core/css/jquery-ui.css">
-<script src="core/js/localforage.js"></script>   
-<script src="core/js/annotator.1.2.9/annotator.tags.min.js"></script>     
-<script src="core/js/annotator.1.2.9/annotator.min.js"></script>
-<link rel="stylesheet" src="core/js/annotator.1.2.9/annotator.min.css">
-<script>
-      jQuery(function($){
-
-$("#mainMenu").hover(function(){
-  $("#mainMenu").children().show();
-}, function(){
-  $("#mainMenu ").children().hide();
-});
-$("#file").hover(function(){
-  $("#file ").children().show();
-}, function(){
-  $("#file").children().hide();
-});
-TogetherJSConfig_enableAnalytics = true;
-    
-     
-    });
-</script>
-<script src="core/js/time.js"></script>
-<script src="core/js/localforage.min.js"></script>
-<script src="core/js/ximal.js"></script>
-
-<script src="https://login.persona.org/include.js"></script>
-<link rel="stylesheet" type="text/css" href="core/css/desktop.css"/>
-<link rel="stylesheet" type="text/css" href="core/font-awesome/css/font-awesome.min.css"/>
-
-<script src="core/js/mozilla/events.js"></script>
-<script src="core/js/archersysjs.js"></script>
+</style>
 </head>
 <body>
+<div class="container-fluid">
+ <ul class="nav nav-tabs">
+   <li><a href="#">License</a></li>
+</ul>
+<div class="container-fluid">
+<div class="jumbotron">
+
+<h1>Alonzo Chat Bundle</h1>
+<p> Welcome to the Alonzo Chat Bundle , From ArcherSys!</p>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+ <div class="col-md-3">
+  <div class="badge" id="FireHub">
+   <h1>FireHub</h1>
+   <a href="http://localhost/Alonzo/FireHub">Explore The Benefits of Chat on FireHub</a>
+  </div>
+</div>
+<div class="col-md-3">
+<div class="badge" id="phpFreeChat">
+ <h1>phpFreeChat</h1>
+  <a href="http://localhost/Alonzo/phpFreeChat"> Explore PHP Chat Service #1</a>
+</div>
+</div>
+<div class="col-md-3">
+<div class="badge" id="FireHubNG">
+ <h1>FireHubNG</h1>
+  <a href="http://localhost/Alonzo/FireHubNG">Experience the FireHub IM App as the Angular Edition!</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </body>
-</html>
-</html>

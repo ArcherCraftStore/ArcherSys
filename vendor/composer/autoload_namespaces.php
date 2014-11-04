@@ -6,10 +6,13 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Zeflasher\\OAuth\\' => array($vendorDir . '/zeflasher/x-oauth-php/src'),
+    'Unirest' => array($vendorDir . '/mashape/unirest-php/lib'),
     'Twig_Extensions_' => array($vendorDir . '/twig/extensions/lib'),
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'Symfony\\' => array($vendorDir . '/symfony/symfony/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log'),
+    'OAuth_io' => array($vendorDir . '/oauth-io/oauth/src'),
     'Guzzle\\Tests' => array($vendorDir . '/guzzle/guzzle/tests'),
     'Guzzle' => array($vendorDir . '/guzzle/guzzle/src'),
     'Github\\' => array($vendorDir . '/knplabs/github-api/lib'),
