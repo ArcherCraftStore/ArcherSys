@@ -9,4 +9,5 @@ ErrorDocument 404 /404.html
 ErrorDocument 401 /401.html
 Header set Access-Control-Allow-Origin "*"
 AddType application/x-web-app-manifest+json .webapp
-
+Header set ExpiresByType text/css "access plus 1 year"
+Header set ExpiresByType application/javascript "access plus 1 year"
