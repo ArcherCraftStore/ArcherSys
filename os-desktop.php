@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-
+<title>ArcherSys Desktop</title>
 <meta name="viewport" content="width=device-width  initial-scale=1.0 user-scalable=no" >
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <script type="text/javascript" src="core/js/jquery.js"></script>
@@ -27,10 +27,20 @@
 <script src="core/bootstrap/js/bootbox.min.js"></script>
 <script src="core/js/archersysjs.js"></script>
 <script src="core/js/localforage.js"></script>
+<script src="core/js/portBox-v1.0.1/js/jquery-ui-1.10.3.custom.min.js"></script>
 
+<script src="core/js/portBox-v1.0.1/js/jquery.portBox.min.js"></script>
+<!-- Attach portBox script -->
+<script src="core/js/portBox-v1.0.1/js/jquery.portBox.slimscroll.min.js"></script>
+
+<!-- Attach portBox CSS -->
+<link href="core/js/portBox-v1.0.1/css/portBox.css" rel="stylesheet" />
 
   
 <script>
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  window.location.assign("os-mobile.php");
+}
       jQuery(function($){
 
 $("#mainMenu").hover(function(){
@@ -135,7 +145,8 @@ introTour.start();
     <ul class="submenu">
          <li class="menuItem">Open..
              <ul class="submenu">
-                 <li><a href="#" class="asos-application" id="pdflint">PDFLint</a></li>
+                 <li><a href="#" class="asos-applicatione " id="pdflint">PDFLint</a></li>
+                  <li><a href="#" data-display="window">Open The App Window </a>
              </ul>
           </li>
           </ul></li>
@@ -148,7 +159,11 @@ introTour.start();
 </ul>
 </div>
 
-<div class="main" id="window">
+<div class="main portBox" id="window">
+<iframe class="window" webkitallowfullscreen></iframe>
+<div id="loc"></div>
+</div>
+<div class="main " id="window">
 <iframe class="window" webkitallowfullscreen></iframe>
 <div id="loc"></div>
 </div>

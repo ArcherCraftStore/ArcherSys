@@ -1539,3 +1539,6 @@
 {"app":"roundcube","message":"OC_RoundCube_App.class.php->refresh(): Failed to refresh the RC session.","level":3,"time":"2014-10-27T03:31:14+00:00"}
 {"app":"roundcube","message":"OC_RoundCube_App.class.php->refresh(): Failed to refresh the RC session.","level":3,"time":"2014-10-28T16:32:14+00:00"}
 {"app":"roundcube","message":"OC_RoundCube_App.class.php->refresh(): Failed to refresh the RC session.","level":3,"time":"2014-10-31T17:40:59+00:00"}
+{"app":"core","message":"Login failed: 'weldon23.henson23@gmail.com' (Remote IP: '::1', X-Forwarded-For: '')","level":2,"time":"2014-11-05T21:09:32+00:00"}
+{"app":"core","message":"Login failed: 'weldon23.henson23@gmail.com' (Remote IP: '::1', X-Forwarded-For: '')","level":2,"time":"2014-11-05T21:25:01+00:00"}
+{"app":"core","message":"Login failed: 'archerroot' (Remote IP: '::1', X-Forwarded-For: '')","level":2,"time":"2014-11-05T21:25:54+00:00"}
