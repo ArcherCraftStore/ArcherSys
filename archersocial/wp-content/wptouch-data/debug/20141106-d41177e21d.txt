@@ -13275,3 +13275,1265 @@
 3:03:06pm - 1415286186.8431 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
 3:03:06pm - 1415286186.8431 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
 3:03:06pm - 1415286186.8431 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:44pm - 1415299064.3041 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:44pm - 1415299064.3041 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:44pm - 1415299064.3181 : [info][Process: 5424]: Adding root functions files
+6:37:44pm - 1415299064.4009 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:44pm - 1415299064.4009 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:44pm - 1415299064.5169 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:44pm - 1415299064.5209 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:44pm - 1415299064.8079 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:44pm - 1415299064.8109 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:44pm - 1415299064.8149 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:44pm - 1415299064.8179 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:44pm - 1415299064.8949 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:44pm - 1415299064.8979 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:44pm - 1415299064.8989 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:44pm - 1415299064.9029 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:44pm - 1415299064.9059 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:44pm - 1415299064.9199 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:44pm - 1415299064.9229 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:44pm - 1415299064.9249 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:44pm - 1415299064.9279 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:44pm - 1415299064.9309 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:37:44pm - 1415299064.9319 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:37:44pm - 1415299064.9349 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:37:44pm - 1415299064.9525 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:37:44pm - 1415299064.9681 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:37:44pm - 1415299064.9681 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:37:44pm - 1415299064.9681 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:37:44pm - 1415299064.9681 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:37:44pm - 1415299064.9681 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:37:44pm - 1415299064.9681 : [info][Process: 5424]: .. Loading settings from database foundation
+6:37:45pm - 1415299065.4356 : [info][Process: 5424]: Invalidating settings
+6:37:45pm - 1415299065.4356 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:45pm - 1415299065.4356 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:37:45pm - 1415299065.4356 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:37:45pm - 1415299065.4356 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:45pm - 1415299065.4356 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:45pm - 1415299065.4512 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:45pm - 1415299065.4512 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:45pm - 1415299065.4512 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:45pm - 1415299065.4512 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:45pm - 1415299065.4512 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:45pm - 1415299065.4512 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:45pm - 1415299065.4512 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:37:45pm - 1415299065.8992 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:45pm - 1415299065.8992 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:49pm - 1415299069.809 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:49pm - 1415299069.809 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:49pm - 1415299069.809 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:49pm - 1415299069.8246 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:53pm - 1415299073.6772 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:53pm - 1415299073.6782 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:53pm - 1415299073.6802 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:53pm - 1415299073.6832 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:53pm - 1415299073.6852 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:53pm - 1415299073.6862 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:55pm - 1415299075.989 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:55pm - 1415299075.991 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:55pm - 1415299075.994 : [info][Process: 5424]: Adding root functions files
+6:37:56pm - 1415299076.004 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.006 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:56pm - 1415299076.165 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.166 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:56pm - 1415299076.274 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.275 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:56pm - 1415299076.278 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.28 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:56pm - 1415299076.292 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.294 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:56pm - 1415299076.295 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.304 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:56pm - 1415299076.305 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.306 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:56pm - 1415299076.307 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.309 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:56pm - 1415299076.323 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.328 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:37:56pm - 1415299076.329 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:37:56pm - 1415299076.33 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:37:56pm - 1415299076.332 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:37:56pm - 1415299076.332 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:37:56pm - 1415299076.333 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:37:56pm - 1415299076.334 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:37:56pm - 1415299076.335 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:37:56pm - 1415299076.337 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:37:56pm - 1415299076.337 : [info][Process: 5424]: .. Loading settings from database foundation
+6:37:56pm - 1415299076.5239 : [info][Process: 5424]: Invalidating settings
+6:37:56pm - 1415299076.5249 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.5269 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:37:56pm - 1415299076.5279 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:37:56pm - 1415299076.5299 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.5309 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:56pm - 1415299076.5319 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.5339 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:56pm - 1415299076.5349 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.5369 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:56pm - 1415299076.5399 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.5409 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:56pm - 1415299076.5429 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:37:56pm - 1415299076.6349 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:56pm - 1415299076.6369 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:57pm - 1415299077.0489 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:57pm - 1415299077.0499 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:37:57pm - 1415299077.0509 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:37:57pm - 1415299077.0529 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:02pm - 1415299082.9383 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:02pm - 1415299082.9403 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:02pm - 1415299082.9423 : [info][Process: 5424]: Adding root functions files
+6:38:02pm - 1415299082.9923 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:02pm - 1415299082.9943 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:03pm - 1415299083.0113 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:03pm - 1415299083.0133 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:03pm - 1415299083.2523 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:03pm - 1415299083.2663 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:03pm - 1415299083.2693 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:03pm - 1415299083.2723 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:03pm - 1415299083.2843 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:03pm - 1415299083.2873 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:03pm - 1415299083.3003 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:03pm - 1415299083.3033 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:03pm - 1415299083.3043 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:03pm - 1415299083.3063 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:03pm - 1415299083.3073 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:03pm - 1415299083.3093 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:03pm - 1415299083.3143 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:03pm - 1415299083.3163 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:38:03pm - 1415299083.3173 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:38:03pm - 1415299083.3193 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:38:03pm - 1415299083.3223 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:38:03pm - 1415299083.3233 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:38:03pm - 1415299083.3243 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:38:03pm - 1415299083.3263 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:38:03pm - 1415299083.3273 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:38:03pm - 1415299083.3303 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:38:03pm - 1415299083.3343 : [info][Process: 5424]: .. Loading settings from database foundation
+6:38:03pm - 1415299083.6582 : [info][Process: 5424]: Invalidating settings
+6:38:03pm - 1415299083.7322 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:03pm - 1415299083.7362 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:38:03pm - 1415299083.7382 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:38:03pm - 1415299083.7392 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:03pm - 1415299083.7412 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:03pm - 1415299083.7422 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:03pm - 1415299083.7442 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:03pm - 1415299083.7452 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:03pm - 1415299083.7472 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:03pm - 1415299083.7502 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:03pm - 1415299083.7522 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:03pm - 1415299083.7532 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:38:04pm - 1415299084.2402 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:04pm - 1415299084.2422 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:04pm - 1415299084.8151 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:04pm - 1415299084.8171 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:04pm - 1415299084.8191 : [info][Process: 5424]: Adding root functions files
+6:38:04pm - 1415299084.8341 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:04pm - 1415299084.8361 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:04pm - 1415299084.8831 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:04pm - 1415299084.8841 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:04pm - 1415299084.9911 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:04pm - 1415299084.9921 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:05pm - 1415299085.0001 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:05pm - 1415299085.0021 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:05pm - 1415299085.0121 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:05pm - 1415299085.0141 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:05pm - 1415299085.0151 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:05pm - 1415299085.0161 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:05pm - 1415299085.0171 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:05pm - 1415299085.0181 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:05pm - 1415299085.0191 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:05pm - 1415299085.0201 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:05pm - 1415299085.1191 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:05pm - 1415299085.1211 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:38:05pm - 1415299085.1221 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:38:05pm - 1415299085.1231 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:38:05pm - 1415299085.1251 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:38:05pm - 1415299085.1261 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:38:05pm - 1415299085.1271 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:38:05pm - 1415299085.1281 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:38:05pm - 1415299085.1291 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:38:05pm - 1415299085.1311 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:38:05pm - 1415299085.1331 : [info][Process: 5424]: .. Loading settings from database foundation
+6:38:05pm - 1415299085.432 : [info][Process: 5424]: Invalidating settings
+6:38:05pm - 1415299085.491 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:05pm - 1415299085.493 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:38:05pm - 1415299085.494 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:38:05pm - 1415299085.495 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:05pm - 1415299085.496 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:05pm - 1415299085.497 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:05pm - 1415299085.499 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:05pm - 1415299085.5 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:05pm - 1415299085.501 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:05pm - 1415299085.516 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:05pm - 1415299085.518 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:05pm - 1415299085.663 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:38:05pm - 1415299085.797 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:05pm - 1415299085.798 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:06pm - 1415299086.325 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:06pm - 1415299086.328 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:06pm - 1415299086.328 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:06pm - 1415299086.331 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:06pm - 1415299086.9679 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:06pm - 1415299086.9699 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:06pm - 1415299086.9699 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:06pm - 1415299086.9719 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:08pm - 1415299088.4207 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.4227 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:08pm - 1415299088.4247 : [info][Process: 5424]: Adding root functions files
+6:38:08pm - 1415299088.4437 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.4457 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:08pm - 1415299088.4957 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.4987 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:08pm - 1415299088.6237 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.6267 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:08pm - 1415299088.6307 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.6337 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:08pm - 1415299088.6447 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.6457 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:08pm - 1415299088.6467 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.6487 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:08pm - 1415299088.6487 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.6697 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:08pm - 1415299088.6707 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.6727 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:08pm - 1415299088.6747 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.6767 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:38:08pm - 1415299088.6777 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:38:08pm - 1415299088.6797 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:38:08pm - 1415299088.6867 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:38:08pm - 1415299088.6877 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:38:08pm - 1415299088.6887 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:38:08pm - 1415299088.6967 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:38:08pm - 1415299088.6977 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:38:08pm - 1415299088.7017 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:38:08pm - 1415299088.7017 : [info][Process: 5424]: .. Loading settings from database foundation
+6:38:08pm - 1415299088.9447 : [info][Process: 5424]: Invalidating settings
+6:38:08pm - 1415299088.9457 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.9477 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:38:08pm - 1415299088.9477 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:38:08pm - 1415299088.9487 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.9507 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:08pm - 1415299088.9507 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.9527 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:08pm - 1415299088.9527 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.9547 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:08pm - 1415299088.9567 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:08pm - 1415299088.9587 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:08pm - 1415299088.9607 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:38:09pm - 1415299089.0967 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:09pm - 1415299089.1017 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:09pm - 1415299089.6046 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:09pm - 1415299089.6086 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:09pm - 1415299089.6086 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:09pm - 1415299089.6126 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.0546 : [info][Process: 5424]: In get_settings with DOMAIN bncid CLONE: 1
+6:38:10pm - 1415299090.0566 : [info][Process: 5424]: Loading setting wpts_bncid from DATABASE
+6:38:10pm - 1415299090.0566 : [info][Process: 5424]: .. Loading settings from database bncid
+6:38:10pm - 1415299090.0576 : [info][Process: 5424]: In get_settings with DOMAIN bncid CLONE: 1
+6:38:10pm - 1415299090.0596 : [info][Process: 5424]: .. Returning previously loaded settings bncid
+6:38:10pm - 1415299090.0596 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.0616 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.0726 : [info][Process: 5424]: In get_settings with DOMAIN bncid CLONE: 1
+6:38:10pm - 1415299090.0756 : [info][Process: 5424]: Loading setting wpts_bncid from DATABASE
+6:38:10pm - 1415299090.0766 : [info][Process: 5424]: .. Loading settings from database bncid
+6:38:10pm - 1415299090.0776 : [info][Process: 5424]: In get_settings with DOMAIN bncid CLONE: 1
+6:38:10pm - 1415299090.0806 : [info][Process: 5424]: .. Returning previously loaded settings bncid
+6:38:10pm - 1415299090.0806 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.0826 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.1456 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.1466 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.1476 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.1496 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.1716 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.1726 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.1746 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.1766 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.1766 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.1796 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.1916 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.1936 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.1946 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.1966 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2096 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2116 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2136 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2156 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2166 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2236 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2276 : [info][Process: 5424]: In get_settings with DOMAIN bncid CLONE: 1
+6:38:10pm - 1415299090.2296 : [info][Process: 5424]: Loading setting wpts_bncid from DATABASE
+6:38:10pm - 1415299090.2306 : [info][Process: 5424]: .. Loading settings from database bncid
+6:38:10pm - 1415299090.2316 : [info][Process: 5424]: In get_settings with DOMAIN bncid CLONE: 1
+6:38:10pm - 1415299090.2336 : [info][Process: 5424]: .. Returning previously loaded settings bncid
+6:38:10pm - 1415299090.2346 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2366 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2376 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2406 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2416 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2436 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2476 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2496 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2556 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2576 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2586 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2606 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2616 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2616 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2636 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2636 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2646 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2666 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2676 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2686 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2796 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2816 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2836 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2846 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2856 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2866 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2876 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2896 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2946 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.2956 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.2996 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.3196 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.3226 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.3236 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.3266 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.3266 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.3286 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.3296 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.3326 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.3506 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.3526 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.3526 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.3546 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.3546 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.3566 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.3566 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.3576 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.3596 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.3596 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.3596 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.3616 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.3826 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.3836 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.3846 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4135 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4155 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4175 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4195 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4205 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4225 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4235 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4245 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4265 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4295 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4305 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4425 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4455 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4475 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4475 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4485 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4495 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4505 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4505 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4515 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4525 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4555 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4555 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4575 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4685 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4695 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4705 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4715 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4725 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4735 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4745 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4755 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4755 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4755 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4775 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4785 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4945 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.4965 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.4985 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.5015 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.5015 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.5045 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.5135 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.5155 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.5185 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.5195 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.5205 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.5225 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.5225 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.5245 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.5345 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.5355 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.5375 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.5395 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.5405 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.5415 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.5815 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.5885 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.5915 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.5935 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.5945 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.5965 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.6025 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.6045 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.6325 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.6345 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.6365 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.6395 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.6405 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.6425 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.6615 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.6645 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.9115 : [info][Process: 5424]: Checking for product update
+6:38:10pm - 1415299090.9115 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.9145 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.9195 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.9225 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.9245 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:10pm - 1415299090.9265 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:10pm - 1415299090.9985 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:11pm - 1415299091.0005 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:11pm - 1415299091.0035 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:11pm - 1415299091.0055 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:11pm - 1415299091.0075 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:11pm - 1415299091.0105 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:11pm - 1415299091.0425 : [info][Process: 5424]: Checking for product update
+6:38:11pm - 1415299091.0435 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:11pm - 1415299091.0455 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:11pm - 1415299091.0475 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:11pm - 1415299091.0495 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:11pm - 1415299091.0515 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:11pm - 1415299091.0525 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:19pm - 1415299099.3197 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:19pm - 1415299099.3227 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:57pm - 1415299137.9477 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:57pm - 1415299137.9497 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:57pm - 1415299137.9527 : [info][Process: 5424]: Adding root functions files
+6:38:57pm - 1415299137.9617 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:57pm - 1415299137.9637 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:57pm - 1415299137.9747 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:57pm - 1415299137.9766 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:58pm - 1415299138.0216 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.0236 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:58pm - 1415299138.0256 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.0266 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:58pm - 1415299138.0336 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.0346 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:58pm - 1415299138.0346 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.0366 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:58pm - 1415299138.0366 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.0386 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:58pm - 1415299138.0396 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.0416 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:58pm - 1415299138.0436 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.0476 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:38:58pm - 1415299138.0486 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:38:58pm - 1415299138.0506 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:38:58pm - 1415299138.0536 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:38:58pm - 1415299138.0546 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:38:58pm - 1415299138.0556 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:38:58pm - 1415299138.0566 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:38:58pm - 1415299138.0576 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:38:58pm - 1415299138.0586 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:38:58pm - 1415299138.0596 : [info][Process: 5424]: .. Loading settings from database foundation
+6:38:58pm - 1415299138.2186 : [info][Process: 5424]: Invalidating settings
+6:38:58pm - 1415299138.2186 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.2206 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:38:58pm - 1415299138.2206 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:38:58pm - 1415299138.2216 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.2236 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:58pm - 1415299138.2236 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.2256 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:58pm - 1415299138.2266 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.2286 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:58pm - 1415299138.2326 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.2336 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:58pm - 1415299138.2346 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:38:58pm - 1415299138.3626 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.3646 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:58pm - 1415299138.7636 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.7646 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:58pm - 1415299138.7656 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:58pm - 1415299138.7666 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.3355 : [info][Process: 5424]: In get_settings with DOMAIN bncid CLONE: 1
+6:38:59pm - 1415299139.3375 : [info][Process: 5424]: Loading setting wpts_bncid from DATABASE
+6:38:59pm - 1415299139.3385 : [info][Process: 5424]: .. Loading settings from database bncid
+6:38:59pm - 1415299139.3395 : [info][Process: 5424]: In get_settings with DOMAIN bncid CLONE: 1
+6:38:59pm - 1415299139.3415 : [info][Process: 5424]: .. Returning previously loaded settings bncid
+6:38:59pm - 1415299139.3425 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.3435 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.3445 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.3455 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.3465 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.3485 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.3665 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.3675 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.3685 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.3695 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.3705 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.3715 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.3805 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.3825 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.3845 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.3865 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.3875 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.3895 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4025 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4045 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4055 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4075 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4075 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4085 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4205 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4245 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4275 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4305 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4305 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4325 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4405 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4415 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4435 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4445 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4455 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4465 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4645 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4655 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4675 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4685 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4695 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4705 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4785 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4805 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4845 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4865 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.4875 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.4895 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.5025 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.5035 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.6405 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.6415 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.6435 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.6445 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:38:59pm - 1415299139.6465 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:38:59pm - 1415299139.6475 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:39:00pm - 1415299140.9773 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:39:00pm - 1415299140.9794 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:09pm - 1415299209.7673 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:09pm - 1415299209.7829 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:09pm - 1415299209.7829 : [info][Process: 5424]: Adding root functions files
+6:40:09pm - 1415299209.7829 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:09pm - 1415299209.7829 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:09pm - 1415299209.7985 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:09pm - 1415299209.7985 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:09pm - 1415299209.8453 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:09pm - 1415299209.8453 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:09pm - 1415299209.8609 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:09pm - 1415299209.8609 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:09pm - 1415299209.8765 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:09pm - 1415299209.8765 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:09pm - 1415299209.8765 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:09pm - 1415299209.8765 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:09pm - 1415299209.8765 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:09pm - 1415299209.8765 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:09pm - 1415299209.8765 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:09pm - 1415299209.8921 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:09pm - 1415299209.8921 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:09pm - 1415299209.8921 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:40:09pm - 1415299209.8921 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:40:09pm - 1415299209.8921 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:40:09pm - 1415299209.8921 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:40:09pm - 1415299209.8921 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:40:09pm - 1415299209.8921 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:40:09pm - 1415299209.8921 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:40:09pm - 1415299209.9077 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:40:09pm - 1415299209.9077 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:40:09pm - 1415299209.9077 : [info][Process: 5424]: .. Loading settings from database foundation
+6:40:10pm - 1415299210.0325 : [info][Process: 5424]: Invalidating settings
+6:40:10pm - 1415299210.0325 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:10pm - 1415299210.0481 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:40:10pm - 1415299210.0481 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:40:10pm - 1415299210.0481 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:10pm - 1415299210.0481 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:10pm - 1415299210.0481 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:10pm - 1415299210.0481 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:10pm - 1415299210.0481 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:10pm - 1415299210.0481 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:10pm - 1415299210.0481 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:10pm - 1415299210.0481 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:10pm - 1415299210.0481 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:40:10pm - 1415299210.1105 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:10pm - 1415299210.1105 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:10pm - 1415299210.5004 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:10pm - 1415299210.5004 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:10pm - 1415299210.516 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:10pm - 1415299210.516 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:10pm - 1415299210.8436 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:10pm - 1415299210.8436 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:10pm - 1415299210.8592 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:10pm - 1415299210.8592 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:40:10pm - 1415299210.8592 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:40:10pm - 1415299210.8592 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:11pm - 1415299271.2298 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.2318 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:11pm - 1415299271.2348 : [info][Process: 5424]: Adding root functions files
+6:41:11pm - 1415299271.2498 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.2518 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:11pm - 1415299271.2698 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.2718 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:11pm - 1415299271.3397 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.4797 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:11pm - 1415299271.4827 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.4847 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:11pm - 1415299271.4937 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.4957 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:11pm - 1415299271.4967 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.4987 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:11pm - 1415299271.4997 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.5037 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:11pm - 1415299271.5047 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.5077 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:11pm - 1415299271.5097 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.5117 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:41:11pm - 1415299271.5127 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:41:11pm - 1415299271.5137 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:41:11pm - 1415299271.5157 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:41:11pm - 1415299271.5167 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:41:11pm - 1415299271.5177 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:41:11pm - 1415299271.5197 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:41:11pm - 1415299271.5207 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:41:11pm - 1415299271.5227 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:41:11pm - 1415299271.5227 : [info][Process: 5424]: .. Loading settings from database foundation
+6:41:11pm - 1415299271.7487 : [info][Process: 5424]: Invalidating settings
+6:41:11pm - 1415299271.7497 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.7517 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:41:11pm - 1415299271.7527 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:41:11pm - 1415299271.7537 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.7557 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:11pm - 1415299271.7557 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.7577 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:11pm - 1415299271.7587 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.7607 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:11pm - 1415299271.7627 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.7647 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:11pm - 1415299271.7667 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:41:11pm - 1415299271.8477 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:11pm - 1415299271.8497 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.0167 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.0187 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.0207 : [info][Process: 5424]: Adding root functions files
+6:41:12pm - 1415299272.0427 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.0447 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.0577 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.0597 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.1677 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.1707 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.1747 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.1777 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.1917 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.1937 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.1947 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.1957 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.1967 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.2007 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.2017 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.2037 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.2057 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.2077 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:41:12pm - 1415299272.2087 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:41:12pm - 1415299272.2107 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:41:12pm - 1415299272.2127 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:41:12pm - 1415299272.2127 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:41:12pm - 1415299272.2147 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:41:12pm - 1415299272.2157 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:41:12pm - 1415299272.2177 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:41:12pm - 1415299272.2207 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:41:12pm - 1415299272.2207 : [info][Process: 5424]: .. Loading settings from database foundation
+6:41:12pm - 1415299272.4016 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.4036 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.4046 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.4066 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.4366 : [info][Process: 5424]: Invalidating settings
+6:41:12pm - 1415299272.4376 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.4406 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:41:12pm - 1415299272.4416 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:41:12pm - 1415299272.4426 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.4446 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.4446 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.4466 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.4476 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.4496 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.4526 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.4536 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.4556 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:41:12pm - 1415299272.5356 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.5376 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.9036 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.9056 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.9086 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.9106 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.9126 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.9136 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.9596 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.9606 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:12pm - 1415299272.9616 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:12pm - 1415299272.9636 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5095 : [info][Process: 5424]: In get_settings with DOMAIN bncid CLONE: 1
+6:41:13pm - 1415299273.5105 : [info][Process: 5424]: Loading setting wpts_bncid from DATABASE
+6:41:13pm - 1415299273.5115 : [info][Process: 5424]: .. Loading settings from database bncid
+6:41:13pm - 1415299273.5125 : [info][Process: 5424]: In get_settings with DOMAIN bncid CLONE: 1
+6:41:13pm - 1415299273.5145 : [info][Process: 5424]: .. Returning previously loaded settings bncid
+6:41:13pm - 1415299273.5145 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5155 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5165 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5175 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5185 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5195 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5285 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5305 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5305 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5325 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5325 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5345 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5435 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5445 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5455 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5475 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5475 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5485 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5575 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5585 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5605 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5615 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5625 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5635 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5735 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5755 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5775 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5795 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5805 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5825 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5945 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.5965 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.5995 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.6005 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.6015 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.6035 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.6135 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.6145 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.6165 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.6175 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.6175 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.6195 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.6275 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.6295 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.6305 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.6325 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.6325 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.6335 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.6425 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.6435 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.7195 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.7225 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.7255 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.7285 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:13pm - 1415299273.7315 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:13pm - 1415299273.7325 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:41:14pm - 1415299274.8684 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:41:14pm - 1415299274.8704 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:28pm - 1415299348.4656 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.4656 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:28pm - 1415299348.4656 : [info][Process: 5424]: Adding root functions files
+6:42:28pm - 1415299348.4656 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.4812 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:28pm - 1415299348.4812 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.4812 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:28pm - 1415299348.5124 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.5124 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:28pm - 1415299348.528 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.528 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:28pm - 1415299348.528 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.528 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:28pm - 1415299348.528 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.528 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:28pm - 1415299348.528 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.528 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:28pm - 1415299348.528 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.528 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:28pm - 1415299348.5436 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.5436 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:42:28pm - 1415299348.5436 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:42:28pm - 1415299348.5436 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:42:28pm - 1415299348.5436 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:42:28pm - 1415299348.5436 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:42:28pm - 1415299348.5436 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:42:28pm - 1415299348.5436 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:42:28pm - 1415299348.5436 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:42:28pm - 1415299348.5436 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:42:28pm - 1415299348.5436 : [info][Process: 5424]: .. Loading settings from database foundation
+6:42:28pm - 1415299348.6528 : [info][Process: 5424]: Invalidating settings
+6:42:28pm - 1415299348.6528 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.6528 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:42:28pm - 1415299348.6528 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:42:28pm - 1415299348.6528 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.6528 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:28pm - 1415299348.6684 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.6684 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:28pm - 1415299348.6684 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.6684 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:28pm - 1415299348.6684 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.6684 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:28pm - 1415299348.6684 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:42:28pm - 1415299348.7152 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:28pm - 1415299348.7152 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:29pm - 1415299349.0428 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:29pm - 1415299349.0428 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:29pm - 1415299349.0428 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:29pm - 1415299349.0428 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:29pm - 1415299349.3392 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:29pm - 1415299349.386 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:29pm - 1415299349.386 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:29pm - 1415299349.386 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:42:29pm - 1415299349.386 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:42:29pm - 1415299349.386 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:50pm - 1415299430.3804 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.3804 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:50pm - 1415299430.3804 : [info][Process: 5424]: Adding root functions files
+6:43:50pm - 1415299430.396 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.396 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:50pm - 1415299430.4428 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.4428 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:50pm - 1415299430.4896 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.5052 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:50pm - 1415299430.5052 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.5052 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:50pm - 1415299430.5208 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.5208 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:50pm - 1415299430.5208 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.5208 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:50pm - 1415299430.5208 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.5208 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:50pm - 1415299430.5208 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.5208 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:50pm - 1415299430.5364 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.5364 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:43:50pm - 1415299430.5364 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:43:50pm - 1415299430.5364 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:43:50pm - 1415299430.5364 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:43:50pm - 1415299430.5364 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:43:50pm - 1415299430.5364 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:43:50pm - 1415299430.5364 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:43:50pm - 1415299430.5364 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:43:50pm - 1415299430.5364 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:43:50pm - 1415299430.552 : [info][Process: 5424]: .. Loading settings from database foundation
+6:43:50pm - 1415299430.7264 : [info][Process: 5424]: Invalidating settings
+6:43:50pm - 1415299430.7294 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.7324 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:43:50pm - 1415299430.7584 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:43:50pm - 1415299430.7594 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.7614 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:50pm - 1415299430.7624 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.7634 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:50pm - 1415299430.7644 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.7664 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:50pm - 1415299430.7694 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.7704 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:50pm - 1415299430.7734 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:43:50pm - 1415299430.8524 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:50pm - 1415299430.8836 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:51pm - 1415299431.3224 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:51pm - 1415299431.3224 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:51pm - 1415299431.3224 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:51pm - 1415299431.3224 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:51pm - 1415299431.7152 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:51pm - 1415299431.7308 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:51pm - 1415299431.7308 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:51pm - 1415299431.7308 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:43:51pm - 1415299431.7308 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:43:51pm - 1415299431.7308 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:04pm - 1415299444.1931 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.1951 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:04pm - 1415299444.1971 : [info][Process: 5424]: Adding root functions files
+6:44:04pm - 1415299444.2221 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.2241 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:04pm - 1415299444.2391 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.2411 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:04pm - 1415299444.2921 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.2941 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:04pm - 1415299444.2971 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.2991 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:04pm - 1415299444.3101 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.3141 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:04pm - 1415299444.3151 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.3171 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:04pm - 1415299444.3181 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.3191 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:04pm - 1415299444.3201 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.3221 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:04pm - 1415299444.3241 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.3261 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:44:04pm - 1415299444.3261 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:44:04pm - 1415299444.3281 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:44:04pm - 1415299444.3301 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:44:04pm - 1415299444.3311 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:44:04pm - 1415299444.3321 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:44:04pm - 1415299444.3341 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:44:04pm - 1415299444.3351 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:44:04pm - 1415299444.3371 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:44:04pm - 1415299444.3381 : [info][Process: 5424]: .. Loading settings from database foundation
+6:44:04pm - 1415299444.5811 : [info][Process: 5424]: Invalidating settings
+6:44:04pm - 1415299444.5831 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.5891 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:44:04pm - 1415299444.5911 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:44:04pm - 1415299444.5931 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.5951 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:04pm - 1415299444.5961 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.5981 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:04pm - 1415299444.5991 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.6011 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:04pm - 1415299444.6591 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.6611 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:04pm - 1415299444.6621 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:44:04pm - 1415299444.7831 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:04pm - 1415299444.7851 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.3221 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299445.3241 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.3251 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299445.3261 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.8851 : [info][Process: 5424]: In get_settings with DOMAIN bncid CLONE: 1
+6:44:05pm - 1415299445.8901 : [info][Process: 5424]: Loading setting wpts_bncid from DATABASE
+6:44:05pm - 1415299445.8901 : [info][Process: 5424]: .. Loading settings from database bncid
+6:44:05pm - 1415299445.8911 : [info][Process: 5424]: In get_settings with DOMAIN bncid CLONE: 1
+6:44:05pm - 1415299445.8931 : [info][Process: 5424]: .. Returning previously loaded settings bncid
+6:44:05pm - 1415299445.8941 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299445.8951 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.8971 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299445.9031 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.9041 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299445.9061 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.9181 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299445.9191 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.9211 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299445.9221 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.9231 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299445.9241 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.9381 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299445.9401 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.9421 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299445.9451 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.9461 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299445.9491 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.9741 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299445.9761 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.9791 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299445.9811 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.9821 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299445.9841 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:05pm - 1415299445.9981 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:05pm - 1415299446.0001 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.0021 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.0041 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.0051 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.0071 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.0291 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.0381 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.0401 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.0421 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.0431 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.0451 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.0721 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.0741 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.0761 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.0791 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.0801 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.0831 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.1021 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.1101 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.1141 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.1191 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.1201 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.1231 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.1641 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.1901 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.3171 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.3181 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.3201 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.3211 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:06pm - 1415299446.3221 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:06pm - 1415299446.3241 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:44:07pm - 1415299447.8081 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:44:07pm - 1415299447.8111 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:26pm - 1415299526.7155 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:26pm - 1415299526.7311 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:26pm - 1415299526.7311 : [info][Process: 5424]: Adding root functions files
+6:45:26pm - 1415299526.8091 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:26pm - 1415299526.8091 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:26pm - 1415299526.8403 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:26pm - 1415299526.8403 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:26pm - 1415299526.9339 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:26pm - 1415299526.9339 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:26pm - 1415299526.9495 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:26pm - 1415299526.9495 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:26pm - 1415299526.9963 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:26pm - 1415299526.9963 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:26pm - 1415299526.9963 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:26pm - 1415299526.9963 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:26pm - 1415299526.9963 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:26pm - 1415299526.9963 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:26pm - 1415299526.9963 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:26pm - 1415299526.9963 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:27pm - 1415299527.0119 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:27pm - 1415299527.0119 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:45:27pm - 1415299527.0119 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:45:27pm - 1415299527.0119 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:45:27pm - 1415299527.0119 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:45:27pm - 1415299527.0119 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:45:27pm - 1415299527.0275 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:45:27pm - 1415299527.0275 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:45:27pm - 1415299527.0275 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:45:27pm - 1415299527.0275 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:45:27pm - 1415299527.0275 : [info][Process: 5424]: .. Loading settings from database foundation
+6:45:27pm - 1415299527.589 : [info][Process: 5424]: Invalidating settings
+6:45:27pm - 1415299527.589 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:27pm - 1415299527.589 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:45:27pm - 1415299527.589 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:45:27pm - 1415299527.589 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:27pm - 1415299527.589 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:27pm - 1415299527.589 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:27pm - 1415299527.589 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:27pm - 1415299527.589 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:27pm - 1415299527.6046 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:27pm - 1415299527.6046 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:27pm - 1415299527.6046 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:27pm - 1415299527.6046 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:45:27pm - 1415299527.8854 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:27pm - 1415299527.8854 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:28pm - 1415299528.3222 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:28pm - 1415299528.3222 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:28pm - 1415299528.3222 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:28pm - 1415299528.3378 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:29pm - 1415299529.4609 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:29pm - 1415299529.4609 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:29pm - 1415299529.4765 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:29pm - 1415299529.4765 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:45:29pm - 1415299529.4765 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:45:29pm - 1415299529.4921 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:48:11pm - 1415299691.3663 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:48:11pm - 1415299691.3663 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:48:11pm - 1415299691.3663 : [info][Process: 5424]: Adding root functions files
+6:48:11pm - 1415299691.9531 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:48:11pm - 1415299691.9561 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:29pm - 1415300009.6675 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:29pm - 1415300009.67 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:29pm - 1415300009.6725 : [info][Process: 5424]: Adding root functions files
+6:53:29pm - 1415300009.7775 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:29pm - 1415300009.78 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:29pm - 1415300009.7975 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:29pm - 1415300009.8175 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:29pm - 1415300009.9 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:29pm - 1415300009.9025 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:29pm - 1415300009.9075 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:29pm - 1415300009.9075 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:29pm - 1415300009.9375 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:29pm - 1415300009.94 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:29pm - 1415300009.94 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:29pm - 1415300009.94 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:29pm - 1415300009.9425 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:29pm - 1415300009.9425 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:29pm - 1415300009.9425 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:29pm - 1415300009.945 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:29pm - 1415300009.9475 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:29pm - 1415300009.95 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:53:29pm - 1415300009.95 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:53:29pm - 1415300009.955 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:53:29pm - 1415300009.9575 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:53:29pm - 1415300009.96 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:53:29pm - 1415300009.96 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:53:29pm - 1415300009.9625 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:53:29pm - 1415300009.9625 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:53:29pm - 1415300009.9675 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:53:29pm - 1415300009.97 : [info][Process: 5424]: .. Loading settings from database foundation
+6:53:30pm - 1415300010.6375 : [info][Process: 5424]: Invalidating settings
+6:53:30pm - 1415300010.64 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:30pm - 1415300010.6425 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:53:30pm - 1415300010.6425 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:53:30pm - 1415300010.645 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:30pm - 1415300010.645 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:30pm - 1415300010.6475 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:30pm - 1415300010.65 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:30pm - 1415300010.65 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:30pm - 1415300010.6525 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:30pm - 1415300010.655 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:30pm - 1415300010.66 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:30pm - 1415300010.6625 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:53:31pm - 1415300011.0425 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:31pm - 1415300011.045 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:37pm - 1415300017.7225 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:37pm - 1415300017.7225 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:37pm - 1415300017.725 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:37pm - 1415300017.7275 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:39pm - 1415300019.5 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:39pm - 1415300019.5025 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:39pm - 1415300019.505 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:39pm - 1415300019.5075 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:53:39pm - 1415300019.51 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:53:39pm - 1415300019.5125 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:39pm - 1415300139.3283 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:39pm - 1415300139.3283 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:39pm - 1415300139.3283 : [info][Process: 5424]: Adding root functions files
+6:55:39pm - 1415300139.3907 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:39pm - 1415300139.3907 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:39pm - 1415300139.4219 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:39pm - 1415300139.4219 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:39pm - 1415300139.5779 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:39pm - 1415300139.5779 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:39pm - 1415300139.5935 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:39pm - 1415300139.5935 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:39pm - 1415300139.6559 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:39pm - 1415300139.6559 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:39pm - 1415300139.6559 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:39pm - 1415300139.6559 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:39pm - 1415300139.6559 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:39pm - 1415300139.6559 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:39pm - 1415300139.6559 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:39pm - 1415300139.6715 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:39pm - 1415300139.6715 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:39pm - 1415300139.6715 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:55:39pm - 1415300139.6715 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:55:39pm - 1415300139.6715 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:55:39pm - 1415300139.6715 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:55:39pm - 1415300139.6715 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:55:39pm - 1415300139.6715 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:55:39pm - 1415300139.6715 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:55:39pm - 1415300139.6715 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:55:39pm - 1415300139.6871 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:55:39pm - 1415300139.6871 : [info][Process: 5424]: .. Loading settings from database foundation
+6:55:40pm - 1415300140.2798 : [info][Process: 5424]: Invalidating settings
+6:55:40pm - 1415300140.2798 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:40pm - 1415300140.2798 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:55:40pm - 1415300140.2798 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:55:40pm - 1415300140.2798 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:40pm - 1415300140.2798 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:40pm - 1415300140.2798 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:40pm - 1415300140.2954 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:40pm - 1415300140.2954 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:40pm - 1415300140.2954 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:40pm - 1415300140.2954 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:40pm - 1415300140.2954 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:40pm - 1415300140.2954 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:55:40pm - 1415300140.6796 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:40pm - 1415300140.6846 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:43pm - 1415300143.9163 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:43pm - 1415300143.9163 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:43pm - 1415300143.9163 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:43pm - 1415300143.9163 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:46pm - 1415300146.2131 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:46pm - 1415300146.2131 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:46pm - 1415300146.2131 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:46pm - 1415300146.2131 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:55:46pm - 1415300146.2131 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:55:46pm - 1415300146.2131 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:00pm - 1415300160.8141 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:00pm - 1415300160.8297 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:00pm - 1415300160.8297 : [info][Process: 5424]: Adding root functions files
+6:56:00pm - 1415300160.8453 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:00pm - 1415300160.8453 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:00pm - 1415300160.8765 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:00pm - 1415300160.8765 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:00pm - 1415300160.9544 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:00pm - 1415300160.9544 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:00pm - 1415300160.9544 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:00pm - 1415300160.9544 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:00pm - 1415300160.97 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:00pm - 1415300160.97 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:00pm - 1415300160.97 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:00pm - 1415300160.9856 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:00pm - 1415300160.9856 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:00pm - 1415300160.9856 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:00pm - 1415300160.9856 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:00pm - 1415300160.9856 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:00pm - 1415300160.9856 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:00pm - 1415300160.9856 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:56:01pm - 1415300161.0012 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:56:01pm - 1415300161.0012 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:56:01pm - 1415300161.0012 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:56:01pm - 1415300161.0012 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:56:01pm - 1415300161.0012 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:56:01pm - 1415300161.0012 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:56:01pm - 1415300161.0012 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:56:01pm - 1415300161.0168 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:56:01pm - 1415300161.0168 : [info][Process: 5424]: .. Loading settings from database foundation
+6:56:01pm - 1415300161.2917 : [info][Process: 5424]: Invalidating settings
+6:56:01pm - 1415300161.2967 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:01pm - 1415300161.2992 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:56:01pm - 1415300161.3017 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:56:01pm - 1415300161.3017 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:01pm - 1415300161.3042 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:01pm - 1415300161.3067 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:01pm - 1415300161.3092 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:01pm - 1415300161.3092 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:01pm - 1415300161.3117 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:01pm - 1415300161.3142 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:01pm - 1415300161.3167 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:01pm - 1415300161.3192 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:56:01pm - 1415300161.481 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:01pm - 1415300161.481 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:01pm - 1415300161.7475 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:01pm - 1415300161.7475 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:56:01pm - 1415300161.7475 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:56:01pm - 1415300161.7475 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:35pm - 1415300255.9351 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:35pm - 1415300255.9371 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:35pm - 1415300255.9401 : [info][Process: 5424]: Adding root functions files
+6:57:36pm - 1415300256.0261 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:36pm - 1415300256.0261 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:36pm - 1415300256.0959 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:36pm - 1415300256.0959 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:36pm - 1415300256.2593 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:36pm - 1415300256.2593 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:36pm - 1415300256.2593 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:36pm - 1415300256.2613 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:36pm - 1415300256.3281 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:36pm - 1415300256.3281 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:36pm - 1415300256.3281 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:36pm - 1415300256.3437 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:36pm - 1415300256.3437 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:36pm - 1415300256.3437 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:36pm - 1415300256.3437 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:36pm - 1415300256.3437 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:36pm - 1415300256.3437 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:36pm - 1415300256.3437 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:57:36pm - 1415300256.3437 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:57:36pm - 1415300256.3437 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:57:36pm - 1415300256.3593 : [info][Process: 5424]: Loading setting wpts_bauhaus from DATABASE
+6:57:36pm - 1415300256.3593 : [info][Process: 5424]: .. Loading settings from database bauhaus
+6:57:36pm - 1415300256.3593 : [info][Process: 5424]: In get_settings with DOMAIN bauhaus CLONE: 1
+6:57:36pm - 1415300256.3593 : [info][Process: 5424]: .. Returning previously loaded settings bauhaus
+6:57:36pm - 1415300256.3593 : [info][Process: 5424]: In get_settings with DOMAIN foundation CLONE: 1
+6:57:36pm - 1415300256.3593 : [info][Process: 5424]: Loading setting wpts_foundation from DATABASE
+6:57:36pm - 1415300256.3593 : [info][Process: 5424]: .. Loading settings from database foundation
+6:57:37pm - 1415300257.0258 : [info][Process: 5424]: Invalidating settings
+6:57:37pm - 1415300257.0258 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:37pm - 1415300257.0258 : [info][Process: 5424]: Loading setting wpts_wptouch_pro from DATABASE
+6:57:37pm - 1415300257.0258 : [info][Process: 5424]: .. Loading settings from database wptouch_pro
+6:57:37pm - 1415300257.0414 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:37pm - 1415300257.0414 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:37pm - 1415300257.0414 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:37pm - 1415300257.0414 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:37pm - 1415300257.0414 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:37pm - 1415300257.0414 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:37pm - 1415300257.0414 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:37pm - 1415300257.0414 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:37pm - 1415300257.057 : [info][Process: 5424]: User is viewing on a NON-MOBILE device
+6:57:37pm - 1415300257.3066 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:37pm - 1415300257.3066 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:38pm - 1415300258.7916 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:38pm - 1415300258.7916 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
+6:57:38pm - 1415300258.7916 : [info][Process: 5424]: In get_settings with DOMAIN wptouch_pro CLONE: 1
+6:57:38pm - 1415300258.8072 : [info][Process: 5424]: .. Returning previously loaded settings wptouch_pro
