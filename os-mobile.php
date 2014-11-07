@@ -1,7 +1,7 @@
 <?php 
   require "config.php";
-  
- require_once "includes/AppDataBucket.php";
+  use ArcherSys\ArcherSearchToolBox;
+ require_once "includes\ArcherSearchToolbox.php";
  
 ?>
 <!DOCTYPE HTML>
@@ -23,6 +23,10 @@ var SaveTheme = function(){
 var theme = $("#theme").val();
    $("#os-home").attr("data-theme",theme);
 };
+$(window).on("mobileinit",function(){
+  TogetherJS(this);
+  return false;
+});
 </script>
   </head>
 <body>
@@ -35,17 +39,18 @@ var theme = $("#theme").val();
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
   <div data-role="page" id="os-home" data-theme="a">
-    <div data-role="header"><h1>ArcherSys OS</h1></div>
+    <div data-role="header"><h1>ArcherSys OS</h1><ul data-role = "navbar"><li><a href="#owncloud">Owncloud</a></li></ul></div>
  <div data-role="main" class="ui-content">
-<p id="orientation">orientationchange Not Supported on this Device.</h1>
+<h1 id="orientation">orientationchange Not Supported on this Device.</h1>
      <form class="ui-filterable">
       <input id="homeSearch" data-type="search" placeholder="Search Everything">
  </form>
    <ul data-role="listview" data-filter="true" data-input="#homeSearch">
      <li data-role="listdivider">Apps</li>
     <?php
-       
-   renderApps($config["dbhost"],$config["dbuser"],$config["dbpass"],$config["dbname"]);
+       $asb = new ArcherSearchToolBox;
+    
+   $asb->renderApps($config["dbhost"],$config["dbuser"],$config["dbpass"],$config["dbname"]);
        
    
       ?>  
@@ -54,6 +59,13 @@ var theme = $("#theme").val();
    <li><a href="#archersys-github">ArcherSys On Github.io</a></li>
    <li><a href="https://www.edmodo.com">Edmodo</a></li>
    <li><a href="#settings1">Settings</a></li>
+   <li data-role="listdivider">For Developers</li>
+    <li><a href="//developers.google.com">Google Developers</a></li>
+    <li><a href="//developers.facebook.com">Facebook Developers</a></li>
+    <li><a href="//dev.twitter.com">Twitter Developers</a></li>
+    <li><a href="//msdn.microsoft.net">Microsoft Developer Network</a></li>
+    <li><a href="//emberjs.com">EmberJS</a></li>
+    <li><a href="//developer.mozilla.com">Mozilla Developer Network</a></li>
   </ul>
 </div>
 
@@ -79,6 +91,9 @@ var theme = $("#theme").val();
 
 </div>
 <div data-role="page" id="archersys-github"></div>
-
+<div data-role="page" id="owncloud">
+<div data-role="header"><h1>ArcherSysCloud</h1></div>
+<iframe src="http://localhost:80/owncloud-serv" width="1100" height="800"></iframe>
+</div>
 </body>
 </html>

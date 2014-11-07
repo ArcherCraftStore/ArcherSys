@@ -1542,3 +1542,5 @@
 {"app":"core","message":"Login failed: 'weldon23.henson23@gmail.com' (Remote IP: '::1', X-Forwarded-For: '')","level":2,"time":"2014-11-05T21:09:32+00:00"}
 {"app":"core","message":"Login failed: 'weldon23.henson23@gmail.com' (Remote IP: '::1', X-Forwarded-For: '')","level":2,"time":"2014-11-05T21:25:01+00:00"}
 {"app":"core","message":"Login failed: 'archerroot' (Remote IP: '::1', X-Forwarded-For: '')","level":2,"time":"2014-11-05T21:25:54+00:00"}
+{"app":"core","message":"Login failed: 'archerroot' (Remote IP: '::1', X-Forwarded-For: '')","level":2,"time":"2014-11-07T13:33:08+00:00"}
+{"app":"core","message":"Login failed: 'archerroot' (Remote IP: '::1', X-Forwarded-For: '')","level":2,"time":"2014-11-07T13:33:39+00:00"}
