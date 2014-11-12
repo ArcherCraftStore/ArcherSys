@@ -14,11 +14,11 @@ $mysql_password = 'aco1234';
 $mysql_db = 'acoserver_acoserver';
 
 # Base URL of the installation
-$baseurl = 'http://localhost/entertainment/rsserv';
+$baseurl = 'http://localhost:80/entertainment/rsserv';
 
 # Email settings
-$email_from = 'acos2014.pdflint@gmail.com';
-$email_notify = 'acos2014.pdflint@gmail.com';
+$email_from = 'acosf2014.pdflint@gmail.com';
+$email_notify = 'acosf2014.pdflint@gmail.com';
 
 $spider_password = 'Se8YVE9yNe5Y';
 $scramble_key = 'ZEty8eWYTEWy';

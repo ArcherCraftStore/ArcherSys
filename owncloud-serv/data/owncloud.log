@@ -1544,3 +1544,11 @@
 {"app":"core","message":"Login failed: 'archerroot' (Remote IP: '::1', X-Forwarded-For: '')","level":2,"time":"2014-11-05T21:25:54+00:00"}
 {"app":"core","message":"Login failed: 'archerroot' (Remote IP: '::1', X-Forwarded-For: '')","level":2,"time":"2014-11-07T13:33:08+00:00"}
 {"app":"core","message":"Login failed: 'archerroot' (Remote IP: '::1', X-Forwarded-For: '')","level":2,"time":"2014-11-07T13:33:39+00:00"}
+{"app":"roundcube","message":"OC_RoundCube_App.class.php->refresh(): Failed to refresh the RC session.","level":3,"time":"2014-11-07T17:50:47+00:00"}
+{"app":"roundcube","message":"OC_RoundCube_App.class.php->refresh(): Failed to refresh the RC session.","level":3,"time":"2014-11-07T17:58:17+00:00"}
+{"app":"roundcube","message":"OC_RoundCube_App.class.php->refresh(): Failed to refresh the RC session.","level":3,"time":"2014-11-07T18:06:47+00:00"}
+{"app":"roundcube","message":"OC_RoundCube_App.class.php->refresh(): Failed to refresh the RC session.","level":3,"time":"2014-11-07T18:12:28+00:00"}
+{"app":"roundcube","message":"OC_RoundCube_App.class.php->refresh(): Failed to refresh the RC session.","level":3,"time":"2014-11-07T18:17:29+00:00"}
+{"app":"roundcube","message":"OC_RoundCube_App.class.php->refresh(): Failed to refresh the RC session.","level":3,"time":"2014-11-07T19:38:31+00:00"}
+{"app":"roundcube","message":"OC_RoundCube_App.class.php->refresh(): Failed to refresh the RC session.","level":3,"time":"2014-11-07T21:01:02+00:00"}
+{"app":"PHP","message":"session_regenerate_id(): Session object destruction failed at K:\\ArcherVMPeridot\\htdocs\\owncloud-serv\\lib\\base.php#396","level":3,"time":"2014-11-08T09:05:03+00:00"}

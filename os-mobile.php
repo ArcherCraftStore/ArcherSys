@@ -9,24 +9,41 @@
 <head>
 <title>ArcherSys OS Mobile Desktop</title>
 <meta name="viewport" content="width=device-width initial-scale=1">
-
+    
   <link rel="stylesheet" href="core/mobile-theme/themes/ArcherSys_OS.css" />
   <link rel="stylesheet" href="core/mobile-theme/themes/jquery.mobile.icons.min.css" />
   <link rel="stylesheet" href="core/mobile-theme/themes/jquery.mobile.structure-1.4.5.min.css" /> 
   <script src="core/js/libs/jquery.min.js"></script> 
   <script src="core/mobile-theme/jquery.mobile-1.4.5.min.js"></script>
+>
+<script src='//cdn.goroost.com/roostjs/5c55db4345ae4ee88f1bcfbcceb82145' async></script>
+<script src="https://archersys.github.io/togetherjs-min.js"></script>
 <script>
+var ArcherSysUpdates = [];
+
+
+</script>
+<script>
+$(function(){
+window.Notification.requestPermission( function(status) {
+  console.log(status); // notifications will only be displayed if "granted"
+ window.onstorage = function(){
+     ArcherSysUpdates.push(new Notification("Save", {body: "Data Saved!"}));
+};
+ }
+});
+   // this also shows the notification
+});
  $( window ).on( "orientationchange", function( event ) {
  $("#orientation").text("This device is in " + (event.orientation === "portrait" ) ? Phone : Phablet + " mode!" );
+ 
 });
 var SaveTheme = function(){
 var theme = $("#theme").val();
    $("#os-home").attr("data-theme",theme);
 };
-$(window).on("mobileinit",function(){
-  TogetherJS(this);
-  return false;
-});
+
+})
 </script>
   </head>
 <body>
@@ -41,7 +58,7 @@ $(window).on("mobileinit",function(){
   <div data-role="page" id="os-home" data-theme="a">
     <div data-role="header"><h1>ArcherSys OS</h1><ul data-role = "navbar"><li><a href="#owncloud">Owncloud</a></li></ul></div>
  <div data-role="main" class="ui-content">
-<h1 id="orientation">orientationchange Not Supported on this Device.</h1>
+<p id="orientation">orientationchange Not Supported on this Device.</p>
      <form class="ui-filterable">
       <input id="homeSearch" data-type="search" placeholder="Search Everything">
  </form>
@@ -67,6 +84,11 @@ $(window).on("mobileinit",function(){
     <li><a href="//emberjs.com">EmberJS</a></li>
     <li><a href="//developer.mozilla.com">Mozilla Developer Network</a></li>
   </ul>
+<button id="start-togetherjs" type="button"
+ onclick="TogetherJS(this); return false"
+ data-end-togetherjs-html="End TogetherJS">
+  Start TogetherJS
+</button>
 </div>
 
  </div>
@@ -95,5 +117,6 @@ $(window).on("mobileinit",function(){
 <div data-role="header"><h1>ArcherSysCloud</h1></div>
 <iframe src="http://localhost:80/owncloud-serv" width="1100" height="800"></iframe>
 </div>
+
 </body>
 </html>

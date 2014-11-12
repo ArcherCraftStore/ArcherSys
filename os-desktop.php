@@ -100,7 +100,7 @@ window.navigator.id.get();
 
 });
    
-    });
+
 var introTour = new Tour({
      steps: [
       {
@@ -118,6 +118,8 @@ var introTour = new Tour({
 
 introTour.init();
 introTour.start();
+    });
+
 </script>
 
  <script src="core/js/libs/min/togetherjs-min.js"></script>
@@ -126,6 +128,8 @@ introTour.start();
 
 
 <script src="core/js/mozilla/events.js"></script>
+<script src='//cdn.goroost.com/roostjs/5c55db4345ae4ee88f1bcfbcceb82145' async></script>
+</head>
 <body>
 
 <div id="bar">

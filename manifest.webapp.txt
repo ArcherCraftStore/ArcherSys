@@ -1,7 +1,7 @@
 {
   "name": "ArcherSys OS",
   "description": "The First ever Open Web Operating System",
-  "launch_path": "os-mobile.php",
+  "launch_path": "http://localhost:80/os-mobile.php",
   "icons": {
     
     "128": "/img/logo.png"
@@ -11,5 +11,4 @@
     "url": "http://archersys.github.io."
   },
   "default_locale": "en"
-   
 }
