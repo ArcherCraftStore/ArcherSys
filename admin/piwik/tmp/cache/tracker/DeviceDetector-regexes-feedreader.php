@@ -129,6 +129,6 @@ $content   = array (
     'type' => 'Feed Reader',
   ),
 );
-$expires_on   = 1415582074;
+$expires_on   = 1415927151;
 $cache_complete   = true;
 ?>

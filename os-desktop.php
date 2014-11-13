@@ -11,7 +11,7 @@
 <script src="core/js/time.js"></script>
 
 <script src="core/js/ximal.js"></script>
-
+<script src="core/js/notidar.js"></script>
 <script src="core/js/localforage.min.js"></script>
 <script src="https://login.persona.org/include.js"></script>
 <link rel="stylesheet" type="text/css" href="core/css/jquery-ui.css">
@@ -36,12 +36,9 @@
 <!-- Attach portBox CSS -->
 <link href="core/js/portBox-v1.0.1/css/portBox.css" rel="stylesheet" />
 
-  
+  <script src="core/js/jquery-notify.js"></script>
 <script>
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-  window.location.assign("os-mobile.php");
-}
-      jQuery(function($){
+   jQuery(function($){
 
 $("#mainMenu").hover(function(){
   $("#mainMenu").children().show();
@@ -53,7 +50,7 @@ $("#file").hover(function(){
 }, function(){
   $("#file").children().hide();
 });
-
+ 
  TogetherJSConfig_enableAnalytics = true;
 
 TogetherJSConfig_hubBase = "https://bird-c9-acosf.c9.io";
@@ -91,7 +88,7 @@ $(".asos-bird").click(ArcherSys.toggleBIRD);
      alert("Say Hello to "+ msg.name);
 
 }
-};  
+}; 
 $("#signin").click(function(){
 
 
@@ -99,25 +96,22 @@ window.navigator.id.get();
 
 
 });
-   
 
-var introTour = new Tour({
-     steps: [
-      {
-        element: "#main",
-        title: "Start",
-        content: "Welcome To ArcherSys Desktop! To get Started, click on a button in the dock"
-        },
- {
-   element: "#bar",
-   title: "Menu",
-   content: " Access Links by clicking on the menu"
+window.Notification.requestPermission(function(status){
+   ArcherSys.Notidar.Notidex.push(new Notification("Welcome!", {body: "Welcome to ArcherSys Notidar!"}));
+   ArcherSys.Notidar.Notidex.push(new Notification("Welcome!", {body: "Get new Stuff in the Title Bar!!"}));
+   ArcherSys.wifi.onconnectionInfoUpdate = function (event) {
+  ArcherSys.Notidar.push(new Notification('Signal strength: ', {body: event.signalStrength.toFixed(2) + 'dBm (' + event.relSignalStrength.toFixed(0) + '%)'}));
 }
-]});
+   $.notify({
+	path : "https://github.com/organizations/ArcherSys/ACOKing.private.atom?token=AGQH2A4qjnRbZQ6WIknjYhoH_cVoa2aaks6ybA2HwA==", //required
+	interval : 60,      //optional (number of seconds between requests, default is 60)
+	callback : function(json){}, //optional (when new results are found they are sent to this function)
+	initial : true    //optional (this just shows notifications on the first pass, by default this is true, and we wont see the diference)
+});
 
+});
 
-introTour.init();
-introTour.start();
     });
 
 </script>
@@ -149,7 +143,9 @@ introTour.start();
     <ul class="submenu">
          <li class="menuItem">Open..
              <ul class="submenu">
-                 <li><a href="#" class="asos-applicatione " id="pdflint">PDFLint</a></li>
+                 <li><a href="#" class="asos-application " id="pdflint">PDFLint</a></li>
+                 
+               
                   <li><a href="#" data-display="window">Open The App Window </a>
              </ul>
           </li>
@@ -165,6 +161,7 @@ introTour.start();
 
 <div class="main portBox" id="window">
 <iframe class="window" webkitallowfullscreen></iframe>
+<browser></browser>
 <div id="loc"></div>
 </div>
 <div class="main " id="window">
@@ -184,6 +181,7 @@ introTour.start();
 </li>
 <li class="asos-owncloud"><em>ownCloud</em><i class="fa fa-cloud fa-5x"></i></li>
 <li class="asos-bird"><a href="#"><img src="data:image/jpeg;base64,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" width="40px" height="40px"></a></li>
+  <li id="asos-gh">Sign in To Github</a></li>
 </ul>
 
 

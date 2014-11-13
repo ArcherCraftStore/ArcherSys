@@ -79,6 +79,6 @@ $content   = array (
     'version' => '$1',
   ),
 );
-$expires_on   = 1415582078;
+$expires_on   = 1415927160;
 $cache_complete   = true;
 ?>

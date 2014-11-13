@@ -1,70 +1,123 @@
-1- What is this?
-    * This is a Joomla! installation/upgrade package to version 2.5.x
-    * Joomla! Official site: http://www.joomla.org
-    * Joomla 2.5 version history - http://docs.joomla.org/Joomla_2.5_version_history
-    * Detailed changes in the Changelog: https://github.com/joomla/joomla-cms/commits/2.5.x
 
-2- What is Joomla?
-    * Joomla it's a Content Management System (CMS) which enables you to build Web sites and powerful online applications.
-    * It's a free and OpenSource software, distributed under the GNU General Public License version 2 or later
-    * This is a simple and powerful web server application and it requires a server with PHP and MySQL to run it. 
-	More details here: http://www.joomla.org/about-joomla.html
+CONTENTS OF THIS FILE
+---------------------
 
-3- Is Joomla for you?
-    * Joomla its the right solution for any content web project: http://docs.joomla.org/Joomla_Is_it_for-me%3F
-    * See Features - http://docs.joomla.org/Joomla_Core_Features
-    * Try out our online demo: http://demo.joomla.org/
+ * About Drupal
+ * Configuration and features
+ * Installation profiles
+ * Appearance
+ * Developing for Drupal
 
-4- How to find a Joomla! translation?
-    * Joomla speak your language: http://docs.joomla.org/Joomla_and_languages/translations
-    * Repository of accredited language packs: http://community.joomla.org/translations.html
+ABOUT DRUPAL
+------------
 
-5- Learn Joomla!
-    * Read Getting Started with Joomla to find out the basics: http://docs.joomla.org/Getting_Started_with_Joomla!
-    * Before installing, read the beginners guide: http://docs.joomla.org/Beginners
+Drupal is an open source content management platform supporting a variety of
+websites ranging from personal weblogs to large community-driven websites. For
+more information, see the Drupal website at http://drupal.org/, and join the
+Drupal community at http://drupal.org/community.
 
-6- What are the limits of Joomla?
-    * Joomla sites can be extended in functionalities with Extensions that you can create to suite your needs.
-    * There are lots of ready made extensions that you can download and install.
-    * See the Joomla! Extensions Directory (JED): http://extensions.joomla.org
+Legal information about Drupal:
+ * Know your rights when using Drupal:
+   See LICENSE.txt in the same directory as this document.
+ * Learn about the Drupal trademark and logo policy:
+   http://drupal.com/trademark
 
-7- Is it easy to change the layout display?
-    * The layout its controlled by templates that you can edit.
-    * There are lots of ready made templates that you can download.
+CONFIGURATION AND FEATURES
+--------------------------
 
-8- Ready to install Joomla?
-    * See minimum requirements here: http://www.joomla.org/technical-requirements.html
-    * How do you install Joomla! ? - http://docs.joomla.org/J2.5:Installing_Joomla
-    * Start your Joomla experience building your site with a local test server.
-	When ready it can be moved to an on-line hosting account of your choice. 
-	See the tutorial: http://docs.joomla.org/Tutorial:Joomla_Local_install
+Drupal core (what you get when you download and extract a drupal-x.y.tar.gz or
+drupal-x.y.zip file from http://drupal.org/project/drupal) has what you need to
+get started with your website. It includes several modules (extensions that add
+functionality) for common website features, such as managing content, user
+accounts, image uploading, and search. Core comes with many options that allow
+site-specific configuration. In addition to the core modules, there are
+thousands of contributed modules (for functionality not included with Drupal
+core) available for download.
 
-9- Updates are free!
-    * Always use the latest version: http://www.joomla.org/download.html
+More about configuration:
+ * Install, upgrade, and maintain Drupal:
+   See INSTALL.txt and UPGRADE.txt in the same directory as this document.
+ * Learn about how to use Drupal to create your site:
+   http://drupal.org/documentation
+ * Download contributed modules to sites/all/modules to extend Drupal's
+   functionality:
+   http://drupal.org/project/modules
+ * See also: "Developing for Drupal" for writing your own modules, below.
 
-10- Where can you get support and help?
-    * FAQ Frequently Asked Questions: http://docs.joomla.org/Category:FAQ
-    * Find the information you need: http://docs.joomla.org/Start_here
-    * Find help and other users: http://www.joomla.org/about-joomla/create-and-share.html
-    * Post questions at our forums: http://forum.joomla.org
-    * Joomla Resources Directory (JRD): http://resources.joomla.org/tos.html
+INSTALLATION PROFILES
+---------------------
 
-11- Already have a site but its not built with Joomla 2.5 ?
-    * What's new in Joomla 2.5+ - http://docs.joomla.org/What%27s_new_in_Joomla_2.5
-    * What are the main differences from 1.5 to 2.5+ ? Table of contents: http://docs.joomla.org/Differences_from_Joomla_1.5_to_Joomla_2.5
-    * How to migrate from 1.5.x ? Tutorial: http://docs.joomla.org/Tutorial:Migrating_from_Joomla_1.5_to_Joomla_2.5
-    * Upgrade Instructions: http://docs.joomla.org/Upgrade_Instructions
-    * Convert an existing Web site to Joomla - http://docs.joomla.org/How_to_Convert_an_existing_Web_site_to_a_Joomla!_Web_site
+Installation profiles define additional steps (such as enabling modules,
+defining content types, etc.) that run after the base installation provided
+by core when Drupal is first installed. There are two basic installation
+profiles provided with Drupal core.
 
-12- Do you want to improve Joomla?
-    * How do you request a feature? http://docs.joomla.org/How_do_you_request_a_feature%3F
-    * How do you report a bug? http://docs.joomla.org/How_do_you_report_a_bug%3F
-    * Get Involved: Joomla! its a community developed software. Join the community at http://www.joomla.org
-    * Are you a Developer? http://docs.joomla.org/Developers
-    * Are you a Web designer? http://docs.joomla.org/Web_designers
+Installation profiles from the Drupal community modify the installation process
+to provide a website for a specific use case, such as a CMS for media
+publishers, a web-based project tracking tool, or a full-fledged CRM for
+non-profit organizations raising money and accepting donations. They can be
+distributed as bare installation profiles or as "distributions". Distributions
+include Drupal core, the installation profile, and all other required
+extensions, such as contributed and custom modules, themes, and third-party
+libraries. Bare installation profiles require you to download Drupal Core and
+the required extensions separately; place the downloaded profile in the
+/profiles directory before you start the installation process. Note that the
+contents of this directory may be overwritten during updates of Drupal core;
+it is advised to keep code backups or use a version control system.
 
-Copyright:
-    * Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.
-    * Credits: http://docs.joomla.org/Joomla!_Credits_and_Thanks
-    * Distributed under the GNU General Public License version 2 or later
-    * See Licenses details at http://docs.joomla.org/Joomla_Licenses
+Additionally, modules and themes may be placed inside subdirectories in a
+specific installation profile such as profiles/your_site_profile/modules and
+profiles/your_site_profile/themes respectively to restrict their usage to only
+sites that were installed with that specific profile.
+
+More about installation profiles and distributions:
+ * Read about the difference between installation profiles and distributions:
+   http://drupal.org/node/1089736
+ * Download contributed installation profiles and distributions:
+   http://drupal.org/project/distributions
+ * Develop your own installation profile or distribution:
+   http://drupal.org/developing/distributions
+
+APPEARANCE
+----------
+
+In Drupal, the appearance of your site is set by the theme (themes are
+extensions that set fonts, colors, and layout). Drupal core comes with several
+themes. More themes are available for download, and you can also create your own
+custom theme.
+
+More about themes:
+ * Download contributed themes to sites/all/themes to modify Drupal's
+   appearance:
+   http://drupal.org/project/themes
+ * Develop your own theme:
+   http://drupal.org/documentation/theme
+
+DEVELOPING FOR DRUPAL
+---------------------
+
+Drupal contains an extensive API that allows you to add to and modify the
+functionality of your site. The API consists of "hooks", which allow modules to
+react to system events and customize Drupal's behavior, and functions that
+standardize common operations such as database queries and form generation. The
+flexible hook architecture means that you should never need to directly modify
+the files that come with Drupal core to achieve the functionality you want;
+instead, functionality modifications take the form of modules.
+
+When you need new functionality for your Drupal site, search for existing
+contributed modules. If you find a module that matches except for a bug or an
+additional needed feature, change the module and contribute your improvements
+back to the project in the form of a "patch". Create new custom modules only
+when nothing existing comes close to what you need.
+
+More about developing:
+ * Search for existing contributed modules:
+   http://drupal.org/project/modules
+ * Contribute a patch:
+   http://drupal.org/patch/submit
+ * Develop your own module:
+   http://drupal.org/developing/modules
+ * Follow best practices:
+   http://drupal.org/best-practices
+ * Refer to the API documentation:
+   http://api.drupal.org/api/drupal/7
