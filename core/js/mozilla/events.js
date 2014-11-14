@@ -11,19 +11,23 @@ $(function() {
      status.addClass(condition);
     status.html(condition.toUpperCase());
 
+
  $(window).bind('online', function(){
     condition = "online";
     status.html(condition);
     status.removeClass("offline");
     status.addClass(condition);
-    Notidar.Notidex.push(new Notification("Online!",{body: "You're now connected! Enjoy your stay in wifi paradise now before you do anything else"}));
+    Notidar.pushOnlineNotification();
+    window.setTimeout(function(){
+
+},5000);
 });
  $(window).bind('offline', function(){
    condition = "offline";
     status.html(condition);
     status.removeClass("online");
     status.addClass(condition);
-Notidar.Notidex.push(new Notification("Offline!",{body: "You're disconnected - officially. "}));
+    Notidar.pushOfflineNotification();
 });
 $(".asos-pdflint").click(function(){
   $("iframe").attr("src", "http://localhost/Producktiviti/PDFLint");
