@@ -6,7 +6,7 @@ $CONFIG = array (
   array (
     0 => 'localhost',
   ),
-  'datadirectory' => 'E:\\xampp\\htdocs\\owncloud-serv\\data',
+  'datadirectory' => 'K:\\ArcherVMPeridot\\htdocs\\owncloud-serv\\data',
   'dbtype' => 'mysql',
   'version' => '7.0.2.1',
   'dbname' => 'acoserver_acoserver',
@@ -15,4 +15,8 @@ $CONFIG = array (
   'dbuser' => 'oc_archerroot2',
   'dbpassword' => '5b02224c8676c48904608228000406',
   'installed' => true,
+  'customclient_desktop' => 'http://owncloud.org/sync-clients/',
+  'customclient_android' => 'https://play.google.com/store/apps/details?id=com.owncloud.android',
+  'customclient_ios' => 'https://itunes.apple.com/us/app/owncloud/id543672169?mt=8',
+  'user_webdavauth_url' => 'https://localhost/webdav',
 );

@@ -35,12 +35,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/guzzle/guzzle3.git",
-            "reference": "d27346b6c8cb6a42092e763f8a2f674dfc560956"
+            "reference": "3c0ca2255751631f1dd64eb16bbe3b9440258297"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/guzzle/guzzle3/zipball/d27346b6c8cb6a42092e763f8a2f674dfc560956",
-            "reference": "d27346b6c8cb6a42092e763f8a2f674dfc560956",
+            "url": "https://api.github.com/repos/guzzle/guzzle3/zipball/3c0ca2255751631f1dd64eb16bbe3b9440258297",
+            "reference": "3c0ca2255751631f1dd64eb16bbe3b9440258297",
             "shasum": ""
         },
         "require": {
@@ -81,7 +81,7 @@
             "zendframework/zend-cache": "2.*,<2.3",
             "zendframework/zend-log": "2.*,<2.3"
         },
-        "time": "2014-09-16 21:19:27",
+        "time": "2014-10-15 19:36:56",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -129,12 +129,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/KnpLabs/php-github-api.git",
-            "reference": "e67a83ef6286daf433cf5f97d10d7f1368723a0e"
+            "reference": "fc2bd5531d221f1f9e7d49238a680e50570bf60b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/KnpLabs/php-github-api/zipball/e67a83ef6286daf433cf5f97d10d7f1368723a0e",
-            "reference": "e67a83ef6286daf433cf5f97d10d7f1368723a0e",
+            "url": "https://api.github.com/repos/KnpLabs/php-github-api/zipball/fc2bd5531d221f1f9e7d49238a680e50570bf60b",
+            "reference": "fc2bd5531d221f1f9e7d49238a680e50570bf60b",
             "shasum": ""
         },
         "require": {
@@ -148,7 +148,7 @@
         "suggest": {
             "knplabs/gaufrette": "Needed for optional Gaufrette cache"
         },
-        "time": "2014-09-10 12:49:17",
+        "time": "2014-09-23 05:58:10",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -192,18 +192,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/fabpot/Twig.git",
-            "reference": "084ca201a737de82323f7613665e7229789aa434"
+            "reference": "5e4abadb4a7a1fe76dcbf20d7ecc67203ff0cf53"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fabpot/Twig/zipball/084ca201a737de82323f7613665e7229789aa434",
-            "reference": "084ca201a737de82323f7613665e7229789aa434",
+            "url": "https://api.github.com/repos/fabpot/Twig/zipball/5e4abadb4a7a1fe76dcbf20d7ecc67203ff0cf53",
+            "reference": "5e4abadb4a7a1fe76dcbf20d7ecc67203ff0cf53",
             "shasum": ""
         },
         "require": {
             "php": ">=5.2.4"
         },
-        "time": "2014-09-02 14:08:17",
+        "time": "2014-10-17 13:00:03",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -351,66 +351,6 @@
         ]
     },
     {
-        "name": "symfony/event-dispatcher",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "target-dir": "Symfony/Component/EventDispatcher",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/EventDispatcher.git",
-            "reference": "ea86d91a10c5737a1e043aa29fe05837f942d163"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/ea86d91a10c5737a1e043aa29fe05837f942d163",
-            "reference": "ea86d91a10c5737a1e043aa29fe05837f942d163",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3"
-        },
-        "require-dev": {
-            "psr/log": "~1.0",
-            "symfony/config": "~2.0",
-            "symfony/dependency-injection": "~2.6",
-            "symfony/expression-language": "~2.6",
-            "symfony/stopwatch": "~2.2"
-        },
-        "suggest": {
-            "symfony/dependency-injection": "",
-            "symfony/http-kernel": ""
-        },
-        "time": "2014-09-28 16:15:31",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.6-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Symfony\\Component\\EventDispatcher\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Symfony Community",
-                "homepage": "http://symfony.com/contributors"
-            },
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            }
-        ],
-        "description": "Symfony EventDispatcher Component",
-        "homepage": "http://symfony.com"
-    },
-    {
         "name": "tinymce/tinymce",
         "version": "4.1.5",
         "version_normalized": "4.1.5.0",
@@ -444,27 +384,21 @@
         ]
     },
     {
-        "name": "google/apiclient",
+        "name": "psr/log",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/google/google-api-php-client.git",
-            "reference": "a41a9dc0662e36420030eaab802dbb1f85459479"
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "a78d6504ff5d4367497785ab2ade91db3a9fbe11"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/google/google-api-php-client/zipball/a41a9dc0662e36420030eaab802dbb1f85459479",
-            "reference": "a41a9dc0662e36420030eaab802dbb1f85459479",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/a78d6504ff5d4367497785ab2ade91db3a9fbe11",
+            "reference": "a78d6504ff5d4367497785ab2ade91db3a9fbe11",
             "shasum": ""
         },
-        "require": {
-            "php": ">=5.2.1"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "3.7.*"
-        },
-        "time": "2014-09-30 19:33:59",
+        "time": "2014-01-18 15:33:09",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -473,21 +407,1154 @@
         },
         "installation-source": "dist",
         "autoload": {
-            "classmap": [
-                "src/"
+            "psr-0": {
+                "Psr\\Log\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "doctrine/lexer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/lexer.git",
+            "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/lexer/zipball/83893c552fd2045dd78aef794c31e694c37c0b8c",
+            "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2014-09-09 13:34:57",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Lexer\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "lexer",
+            "parser"
+        ]
+    },
+    {
+        "name": "doctrine/annotations",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/annotations.git",
+            "reference": "6a6bec0670bb6e71a263b08bc1b98ea242928633"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/annotations/zipball/6a6bec0670bb6e71a263b08bc1b98ea242928633",
+            "reference": "6a6bec0670bb6e71a263b08bc1b98ea242928633",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/lexer": "1.*",
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "doctrine/cache": "1.*",
+            "phpunit/phpunit": "4.*"
+        },
+        "time": "2014-09-25 16:45:30",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Annotations\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Docblock Annotations Parser",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "annotations",
+            "docblock",
+            "parser"
+        ]
+    },
+    {
+        "name": "doctrine/collections",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/collections.git",
+            "reference": "8c5148e0ef8cee4afe86d45ba98f7b6d96e780d0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/collections/zipball/8c5148e0ef8cee4afe86d45ba98f7b6d96e780d0",
+            "reference": "8c5148e0ef8cee4afe86d45ba98f7b6d96e780d0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2014-09-24 12:11:27",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Collections\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Collections Abstraction library",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "array",
+            "collections",
+            "iterator"
+        ]
+    },
+    {
+        "name": "doctrine/cache",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/cache.git",
+            "reference": "912e8a11ce3c75a630b225dd82aed83e00943ed5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/cache/zipball/912e8a11ce3c75a630b225dd82aed83e00943ed5",
+            "reference": "912e8a11ce3c75a630b225dd82aed83e00943ed5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "conflict": {
+            "doctrine/common": ">2.2,<2.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": ">=3.7",
+            "satooshi/php-coveralls": "~0.6"
+        },
+        "time": "2014-10-20 19:28:25",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Cache\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Caching library offering an object-oriented API for many cache backends",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "cache",
+            "caching"
+        ]
+    },
+    {
+        "name": "doctrine/inflector",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/inflector.git",
+            "reference": "8a0b96e65d2399d6f95b75de11134843a2c61feb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/inflector/zipball/8a0b96e65d2399d6f95b75de11134843a2c61feb",
+            "reference": "8a0b96e65d2399d6f95b75de11134843a2c61feb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.*"
+        },
+        "time": "2014-10-05 18:49:49",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Inflector\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Common String Manipulations with regard to casing and singular/plural rules.",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "inflection",
+            "pluralize",
+            "singularize",
+            "string"
+        ]
+    },
+    {
+        "name": "doctrine/common",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/common.git",
+            "reference": "559a805125524b0bb6742638784c2979a5c5e607"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/common/zipball/559a805125524b0bb6742638784c2979a5c5e607",
+            "reference": "559a805125524b0bb6742638784c2979a5c5e607",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/annotations": "1.*",
+            "doctrine/cache": "1.*",
+            "doctrine/collections": "1.*",
+            "doctrine/inflector": "1.*",
+            "doctrine/lexer": "1.*",
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~3.7"
+        },
+        "time": "2014-07-27 17:39:50",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.5.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Common Library for Doctrine projects",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "annotations",
+            "collections",
+            "eventmanager",
+            "persistence",
+            "spl"
+        ]
+    },
+    {
+        "name": "fxp/composer-asset-plugin",
+        "version": "v1.0.0-beta3",
+        "version_normalized": "1.0.0.0-beta3",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/francoispluchino/composer-asset-plugin.git",
+            "reference": "8a8e37791db7c42ee293c89818fa33c814806ef9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/francoispluchino/composer-asset-plugin/zipball/8a8e37791db7c42ee293c89818fa33c814806ef9",
+            "reference": "8a8e37791db7c42ee293c89818fa33c814806ef9",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "1.0.0",
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "composer/composer": "~1.0@dev"
+        },
+        "time": "2014-10-12 13:06:07",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Fxp\\Composer\\AssetPlugin\\FxpAssetPlugin",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Fxp\\Composer\\AssetPlugin\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "François Pluchino",
+                "email": "francois.pluchino@gmail.com"
+            }
+        ],
+        "description": "NPM/Bower Dependency Manager for Composer",
+        "homepage": "https://github.com/francoispluchino/composer-asset-plugin",
+        "keywords": [
+            "asset",
+            "bower",
+            "composer",
+            "dependency manager",
+            "nodejs",
+            "npm",
+            "package"
+        ]
+    },
+    {
+        "name": "j7mbo/twitter-api-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/J7mbo/twitter-api-php.git",
+            "reference": "ab76f1c1e6bf83f0a257216cbaf9932b7cc19a3f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/J7mbo/twitter-api-php/zipball/ab76f1c1e6bf83f0a257216cbaf9932b7cc19a3f",
+            "reference": "ab76f1c1e6bf83f0a257216cbaf9932b7cc19a3f",
+            "shasum": ""
+        },
+        "time": "2013-10-03 10:04:59",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "TwitterAPIExchange.php"
             ]
         },
         "notification-url": "https://packagist.org/downloads/",
-        "include-path": [
-            "src/"
-        ],
         "license": [
-            "Apache-2.0"
+            "GNU Public License"
         ],
-        "description": "Client library for Google APIs",
-        "homepage": "http://developers.google.com/api-client-library/php",
+        "authors": [
+            {
+                "name": "James Mallison",
+                "homepage": "https://github.com/j7mbo/twitter-api-php"
+            }
+        ],
+        "description": "Simple PHP Wrapper for Twitter API v1.1 calls",
+        "homepage": "https://github.com/j7mbo/twitter-api-php",
         "keywords": [
-            "google"
+            "api",
+            "php",
+            "twitter"
+        ]
+    },
+    {
+        "name": "mashape/unirest-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Mashape/unirest-php.git",
+            "reference": "e362fe01ec864e6d3363f750a2309aa1dd407a72"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Mashape/unirest-php/zipball/e362fe01ec864e6d3363f750a2309aa1dd407a72",
+            "reference": "e362fe01ec864e6d3363f750a2309aa1dd407a72",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "vierbergenlars/simpletest": "*"
+        },
+        "time": "2014-05-01 19:54:50",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Unirest": "lib"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mashape",
+                "email": "support@mashape.com",
+                "homepage": "http://mashape.com"
+            }
+        ],
+        "description": "Unirest PHP",
+        "homepage": "https://github.com/Mashape/unirest-php",
+        "keywords": [
+            "client",
+            "curl",
+            "http",
+            "rest"
+        ]
+    },
+    {
+        "name": "oauth-io/oauth",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oauth-io/sdk-php.git",
+            "reference": "c295943306ecee370fcce3d0e71af38034ba4b0d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oauth-io/sdk-php/zipball/c295943306ecee370fcce3d0e71af38034ba4b0d",
+            "reference": "c295943306ecee370fcce3d0e71af38034ba4b0d",
+            "shasum": ""
+        },
+        "require": {
+            "mashape/unirest-php": "dev-master",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.0.*"
+        },
+        "time": "2014-09-25 12:14:52",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "OAuth_io": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache2"
+        ],
+        "authors": [
+            {
+                "name": "oauth-io",
+                "email": "support@oauth.io"
+            }
+        ],
+        "description": "OAuth that just works !"
+    },
+    {
+        "name": "zeflasher/x-oauth-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://bitbucket.org/zeflasher/x-oauth-php.git",
+            "reference": "cbf7fe6f3f27e3160a1706f3c6a305b60dc8db47"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://bitbucket.org/zeflasher/x-oauth-php/get/cbf7fe6f3f27e3160a1706f3c6a305b60dc8db47.zip",
+            "reference": "cbf7fe6f3f27e3160a1706f3c6a305b60dc8db47",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2014-10-08 23:13:28",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Zeflasher\\OAuth\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Xavier Martin",
+                "email": "zeflasher+xoauth@gmail.com",
+                "homepage": "http://dev.webbymx.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "OAuth and XAuth client/server",
+        "homepage": "https://bitbucket.org/zeflasher/x-oauth-php",
+        "keywords": [
+            "oauth",
+            "xauth"
+        ]
+    },
+    {
+        "name": "evenement/evenement",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/igorw/evenement.git",
+            "reference": "35e87541d4b53c22201519fce3caaa5b38ac8164"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/igorw/evenement/zipball/35e87541d4b53c22201519fce3caaa5b38ac8164",
+            "reference": "35e87541d4b53c22201519fce3caaa5b38ac8164",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2014-07-09 21:08:03",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Evenement": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Igor Wiedler",
+                "email": "igor@wiedler.ch",
+                "homepage": "http://wiedler.ch/igor/"
+            }
+        ],
+        "description": "Événement is a very simple event dispatching library for PHP",
+        "keywords": [
+            "event-dispatcher",
+            "event-emitter"
+        ]
+    },
+    {
+        "name": "react/stream",
+        "version": "v0.4.2",
+        "version_normalized": "0.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/reactphp/stream.git",
+            "reference": "acc7a5fec02e0aea674560e1d13c40ed0c8c5465"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/reactphp/stream/zipball/acc7a5fec02e0aea674560e1d13c40ed0c8c5465",
+            "reference": "acc7a5fec02e0aea674560e1d13c40ed0c8c5465",
+            "shasum": ""
+        },
+        "require": {
+            "evenement/evenement": "~2.0",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "react/event-loop": "0.4.*",
+            "react/promise": "~2.0"
+        },
+        "suggest": {
+            "react/event-loop": "0.4.*",
+            "react/promise": "~2.0"
+        },
+        "time": "2014-09-10 03:32:31",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.5-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "React\\Stream\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Basic readable and writable stream interfaces that support piping.",
+        "keywords": [
+            "pipe",
+            "stream"
+        ]
+    },
+    {
+        "name": "react/event-loop",
+        "version": "v0.4.1",
+        "version_normalized": "0.4.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/reactphp/event-loop.git",
+            "reference": "18c5297087ca01de85518e2b55078f444144aa1b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/reactphp/event-loop/zipball/18c5297087ca01de85518e2b55078f444144aa1b",
+            "reference": "18c5297087ca01de85518e2b55078f444144aa1b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "suggest": {
+            "ext-event": "~1.0",
+            "ext-libev": "*",
+            "ext-libevent": ">=0.1.0"
+        },
+        "time": "2014-02-26 17:36:58",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "React\\EventLoop\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Event loop abstraction layer that libraries can use for evented I/O.",
+        "keywords": [
+            "event-loop"
+        ]
+    },
+    {
+        "name": "react/socket",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/reactphp/socket.git",
+            "reference": "3c9bddaeee617463a407dccb1068997f6f40d77f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/reactphp/socket/zipball/3c9bddaeee617463a407dccb1068997f6f40d77f",
+            "reference": "3c9bddaeee617463a407dccb1068997f6f40d77f",
+            "shasum": ""
+        },
+        "require": {
+            "evenement/evenement": "~2.0",
+            "php": ">=5.4.0",
+            "react/event-loop": "0.4.*",
+            "react/stream": "0.4.*"
+        },
+        "time": "2014-06-21 13:01:12",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "React\\Socket\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Library for building an evented socket server.",
+        "keywords": [
+            "Socket"
+        ]
+    },
+    {
+        "name": "cboden/ratchet",
+        "version": "v0.3.2",
+        "version_normalized": "0.3.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ratchetphp/Ratchet.git",
+            "reference": "d36a8699df04354147a4f47845035b1ea8239189"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ratchetphp/Ratchet/zipball/d36a8699df04354147a4f47845035b1ea8239189",
+            "reference": "d36a8699df04354147a4f47845035b1ea8239189",
+            "shasum": ""
+        },
+        "require": {
+            "guzzle/http": "~3.6",
+            "php": ">=5.3.9",
+            "react/socket": "0.3.*|0.4.*",
+            "symfony/http-foundation": "~2.2",
+            "symfony/routing": "~2.2"
+        },
+        "time": "2014-06-08 15:19:45",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Ratchet": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Chris Boden",
+                "email": "cboden@gmail.com",
+                "homepage": "http://res.im",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP WebSocket library",
+        "homepage": "http://socketo.me",
+        "keywords": [
+            "Ratchet",
+            "WebSockets",
+            "server",
+            "sockets"
+        ]
+    },
+    {
+        "name": "symfony/console",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/Console",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Console.git",
+            "reference": "0f59dca5634f4fe95320ad81a3a7c0997bbc53df"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/Console/zipball/0f59dca5634f4fe95320ad81a3a7c0997bbc53df",
+            "reference": "0f59dca5634f4fe95320ad81a3a7c0997bbc53df",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/event-dispatcher": "~2.1",
+            "symfony/process": "~2.1"
+        },
+        "suggest": {
+            "psr/log": "For using the console logger",
+            "symfony/event-dispatcher": "",
+            "symfony/process": ""
+        },
+        "time": "2014-11-11 08:37:22",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Console\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Symfony Console Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "2.7.x-dev",
+        "version_normalized": "2.7.9999999.9999999-dev",
+        "target-dir": "Symfony/Component/EventDispatcher",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/EventDispatcher.git",
+            "reference": "8e5829263631e686bf4d1254b02411263b8fa228"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/8e5829263631e686bf4d1254b02411263b8fa228",
+            "reference": "8e5829263631e686bf4d1254b02411263b8fa228",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~2.0",
+            "symfony/dependency-injection": "~2.6",
+            "symfony/expression-language": "~2.6",
+            "symfony/stopwatch": "~2.2"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2014-11-10 18:00:54",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "symfony/http-foundation",
+        "version": "2.7.x-dev",
+        "version_normalized": "2.7.9999999.9999999-dev",
+        "target-dir": "Symfony/Component/HttpFoundation",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/HttpFoundation.git",
+            "reference": "7efb1b7def9eebcb925bc8d1c05c056cbe7fe29c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/7efb1b7def9eebcb925bc8d1c05c056cbe7fe29c",
+            "reference": "7efb1b7def9eebcb925bc8d1c05c056cbe7fe29c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/expression-language": "~2.4"
+        },
+        "time": "2014-11-10 18:00:54",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\HttpFoundation\\": ""
+            },
+            "classmap": [
+                "Symfony/Component/HttpFoundation/Resources/stubs"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Symfony HttpFoundation Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "symfony/routing",
+        "version": "2.7.x-dev",
+        "version_normalized": "2.7.9999999.9999999-dev",
+        "target-dir": "Symfony/Component/Routing",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Routing.git",
+            "reference": "2c5b95483dfc04c1f139a00f2857ebbfd9daad39"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/Routing/zipball/2c5b95483dfc04c1f139a00f2857ebbfd9daad39",
+            "reference": "2c5b95483dfc04c1f139a00f2857ebbfd9daad39",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "doctrine/annotations": "~1.0",
+            "psr/log": "~1.0",
+            "symfony/config": "~2.2",
+            "symfony/expression-language": "~2.4",
+            "symfony/http-foundation": "~2.3",
+            "symfony/yaml": "~2.0"
+        },
+        "suggest": {
+            "doctrine/annotations": "For using the annotation loader",
+            "symfony/config": "For using the all-in-one router or any loader",
+            "symfony/expression-language": "For using expression matching",
+            "symfony/yaml": "For using the YAML loader"
+        },
+        "time": "2014-11-10 18:00:54",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Routing\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Symfony Routing Component",
+        "homepage": "http://symfony.com",
+        "keywords": [
+            "router",
+            "routing",
+            "uri",
+            "url"
         ]
     }
 ]

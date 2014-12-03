@@ -4,10 +4,13 @@
   
 <head>
    <!--[if IE]>
-      <link rel="stylesheet" type="text/css" href="css/login/screen-ie.css">
+      <link rel="stylesheet" type="text/css" href="core/css/login/screen-ie.css">
+<link type="text/css" rel="stylesheet" media="screen" href="core/css/theme.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="core/css/converse.min.css">
+<script src="core/js/converse.min.js"></script>
    <![endif]-->
 
- <link rel="stylesheet" type="text/css" href="css/login.css"/>
+ <link rel="stylesheet" type="text/css" href="core/css/login.css"/>
 
     <meta name="Content-Type" content="text/html;charset=utf-8">
         <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
@@ -207,6 +210,14 @@
 <button class="logout"><i class="icon-off"></i></button>
 </div>
 </div>
+<div id="chatpanel">
+    <div id="collective-xmpp-chat-data"></div>
+    <div id="toggle-controlbox">
+        <a href="#" class="chat toggle-online-users">
+            <strong class="conn-feedback">Toggle chat</strong> <strong style="display: none" id="online-count">(0)</strong>
+        </a>
+    </div>
+</div>
    <script type="text/javascript">
       (function() {
        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
@@ -221,6 +232,27 @@
  
 
  ?>
+
  
   </body>
+<script>
+ 
+require(['converse'], function (converse) {
+(function () {
+     converse.initialize({
+            allow_otr: true,
+            auto_list_rooms: false,
+            auto_subscribe: false,
+            bosh_service_url: 'https://bind.conversejs.org', // Please use this connection manager only for testing purposes
+            hide_muc_server: false,
+            i18n: locales['en'], // Refer to ./locale/locales.js to see which locales are supported
+            keepalive: true,
+            play_sounds: true,
+            roster_groups: true,
+            show_controlbox_by_default: true,
+            xhr_user_search: false
+        });
+    });
+});
+</script>
 </html>

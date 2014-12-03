@@ -16,6 +16,9 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+@ini_set("max_execution_time", 18000);
+define('WP_CACHE', true); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', 'K:\ArcherVMPeridot\htdocs\archersocial\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'acoserver_acoserver');
 
 /** MySQL database username */
@@ -42,14 +45,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'o+[}Uh.U++BQ!YE,^-)7i+o7<qdbRcvst}5>F0=v_peG^UZgIUH$<d>@FYBv+uUU');
-define('SECURE_AUTH_KEY',  'VeQR:h dN|w0f=p?C,DVZZi?ISMm1-[s%u9JIPsuOl5]uPU2>9#N_[;/Q`r6x{$7');
-define('LOGGED_IN_KEY',    'Ook`~?$x=h5u)( 6B5<MJz-0[*MtX=[G6g4sl|K?F5e/T]undH6,zJl7?}|Wi_;a');
-define('NONCE_KEY',        'P!yS6kmponR]({KWA+Lm<H:JaY5+*0He4l{B p*D6xF]RYGJ G&4lW%aC2Ae,0rj');
-define('AUTH_SALT',        'ls9`e~00>M:^}pPk{3-fcp9kTP2fFY}bOXx6n4NTaX[%?>@J:IFb%jIbn6xwYo:[');
-define('SECURE_AUTH_SALT', 'hYRP1-]K<,H8JHL%bGAMJ$H&E:QoS3*x_*3im_N0C26}|eXP5%I%ot?HES~;shkY');
-define('LOGGED_IN_SALT',   'Bidcm!]CBB`.glik3syI0q);|3QY]<)3G?g(I5{bW$Wx%]|z( dL?hY!Qa=GhS{n');
-define('NONCE_SALT',       'hVgoWTY a^o5>.S@a6o53OGMpc3yJ~z W?D<[0hzf1R}&$[BRT_Osavwq.K5?cuU');
+define('AUTH_KEY',         'k.i3Q6G8S+GbqMu+e,&h*HyrrM!]2#6nTgS=]+8xlsXnNpa3WNlDQB@w<aT/z8q:');
+define('SECURE_AUTH_KEY',  'CNK,qHe&s;8~d5WprB]un+-.5):LMP]^LY60kCL]-n5LHY%&p~2R&yOF^N$B?i^<');
+define('LOGGED_IN_KEY',    'zhdpMLAHk;IT8QI.4N+xSy.UOT0p}K^u+4H-X ))4+ gfNV.0kd`^q@2us;H^S0&');
+define('NONCE_KEY',        'xqbUeTHGY|^:Pdm~;1udtE?=u9xiK*o+,k+R#/5j*4Lz@j=lVF>s8mK3|c6@lR.!');
+define('AUTH_SALT',        'JQ.ptvuOaP9ko-xz iknN;1Sa|Dx8NG,+2)s47+*8U1ljxRWt(GZlA}>KmzWIwi:');
+define('SECURE_AUTH_SALT', 'wSezl(4oSq?;BVCV-.I?.eH8BC}$-nAIs).X?}bbZNhzt?.[~f~zWmA}~BC%](M@');
+define('LOGGED_IN_SALT',   '(9MUbiuI|+2RBl|L$yczcyKzi%bv,j(qkd>eSj|0e0(VRSP<V!dH.qKLB%2t-Y!1');
+define('NONCE_SALT',       'm<vJQt?0[uN+SS+t-3+-;Uqr)r- ,?,.Gsl<sr,|YyZy+F$oH(|k}*F4EG*-#R%{');
 
 /**#@-*/
 
